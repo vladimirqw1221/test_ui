@@ -1,5 +1,4 @@
-import time
-
+from global_enums.enums_halpper.name_filter import FilterParam
 from base_pages.base_test import BaseTest
 import allure
 import pytest
@@ -9,16 +8,10 @@ from data_project.data_site import DataProject
 @allure.feature('Main page')
 class TestMainPage(BaseTest):
     data_user = DataProject()
-    test_sort_data = [
-        ('lohi', '$7.99'),
-        ('hilo', '$49.99'),
-        ('za', 'Test.allTheThings() T-Shirt (Red)'),
-        ('az', 'Sauce Labs Backpack')
-    ]
 
     @pytest.mark.parametrize(
         'value, result',
-        test_sort_data
+        FilterParam.pytest_data()
 
     )
     @allure.title("Test main page checking for filter")
