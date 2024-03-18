@@ -1,37 +1,22 @@
 {
-  "uid" : "802f2a654d4c7ef",
-  "name" : "Check error message in login page",
-  "fullName" : "test.test_login_page.TestLoginPage#test_message_error_for_invalid_data",
-  "historyId" : "2758b8c8d8f5b48df232f10bc24a40b6",
+  "uid" : "a8b64c61ce2f81ed",
+  "name" : "Check error message for invalid data",
+  "fullName" : "test.test_login_page.TestLoginPage#test_no_data_user",
+  "historyId" : "ae6dc9469891f283265dcdd950a8d4f8",
   "time" : {
-    "start" : 1710769470771,
-    "stop" : 1710769471218,
-    "duration" : 447
+    "start" : 1710770210090,
+    "stop" : 1710770210499,
+    "duration" : 409
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
-    "time" : {
-      "start" : 1710769470770,
-      "stop" : 1710769470770,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710769470594,
-      "stop" : 1710769470770,
-      "duration" : 176
+      "start" : 1710770209909,
+      "stop" : 1710770210089,
+      "duration" : 180
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +29,24 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710769464472,
-      "stop" : 1710769464488,
-      "duration" : 16
+      "start" : 1710770202353,
+      "stop" : 1710770202377,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1710770210089,
+      "stop" : 1710770210090,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710769470771,
-        "stop" : 1710769470925,
-        "duration" : 154
+        "start" : 1710770210091,
+        "stop" : 1710770210293,
+        "duration" : 202
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,70 +75,52 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Enter data for login page",
+      "name" : "Check error message no data",
       "time" : {
-        "start" : 1710769470925,
-        "stop" : 1710769471156,
-        "duration" : 231
+        "start" : 1710770210294,
+        "stop" : 1710770210375,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Checking error message ig not password",
+      "time" : {
+        "start" : 1710770210375,
+        "stop" : 1710770210499,
+        "duration" : 124
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "login",
-        "value" : "'locked_out_user'"
-      }, {
-        "name" : "password",
-        "value" : "'secret_sauce'"
+        "value" : "'standard_user'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
-    }, {
-      "name" : " Check error message in invalid password",
-      "time" : {
-        "start" : 1710769471157,
-        "stop" : 1710769471174,
-        "duration" : 17
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : " Check close error message",
-      "time" : {
-        "start" : 1710769471174,
-        "stop" : 1710769471218,
-        "duration" : 44
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 4,
+    "stepsCount" : 3,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710769471219,
-      "stop" : 1710769471278,
-      "duration" : 59
+      "start" : 1710770210508,
+      "stop" : 1710770210568,
+      "duration" : 60
     },
     "status" : "passed",
     "steps" : [ ],
@@ -150,11 +132,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "feature",
     "value" : "Login Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -169,10 +151,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1146-363"
+    "value" : "fv-az1432-153"
   }, {
     "name" : "thread",
-    "value" : "1979-MainThread"
+    "value" : "1774-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -199,54 +181,62 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
-        "uid" : "e03aecb07a7868d5",
+        "uid" : "a109636fd301edad",
         "status" : "passed",
         "time" : {
-          "start" : 1710769233940,
-          "stop" : 1710769234460,
-          "duration" : 520
+          "start" : 1710769471456,
+          "stop" : 1710769471820,
+          "duration" : 364
         }
       }, {
-        "uid" : "902c0cde0f7ebeb3",
+        "uid" : "4f5255add0de3256",
         "status" : "passed",
         "time" : {
-          "start" : 1710769020676,
-          "stop" : 1710769021201,
-          "duration" : 525
+          "start" : 1710769234703,
+          "stop" : 1710769235103,
+          "duration" : 400
         }
       }, {
-        "uid" : "5c431b337289d9a9",
+        "uid" : "2f2fc91512b0f4a0",
         "status" : "passed",
         "time" : {
-          "start" : 1710768999173,
-          "stop" : 1710768999614,
-          "duration" : 441
+          "start" : 1710769021439,
+          "stop" : 1710769021798,
+          "duration" : 359
         }
       }, {
-        "uid" : "c43d6629e03b383a",
+        "uid" : "371d2cff1b16925",
         "status" : "passed",
         "time" : {
-          "start" : 1710768769101,
-          "stop" : 1710768769587,
-          "duration" : 486
+          "start" : 1710768999853,
+          "stop" : 1710769000203,
+          "duration" : 350
         }
       }, {
-        "uid" : "d0d279e190bab48d",
+        "uid" : "d90c831c430cd443",
         "status" : "passed",
         "time" : {
-          "start" : 1710768386083,
-          "stop" : 1710768386623,
-          "duration" : 540
+          "start" : 1710768769825,
+          "stop" : 1710768770202,
+          "duration" : 377
+        }
+      }, {
+        "uid" : "72b936c6a4df2b11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710768386866,
+          "stop" : 1710768387302,
+          "duration" : 436
         }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "802f2a654d4c7ef.json",
+  "source" : "a8b64c61ce2f81ed.json",
   "parameterValues" : [ ]
 }

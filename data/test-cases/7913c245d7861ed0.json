@@ -1,22 +1,22 @@
 {
-  "uid" : "546d3a9441f364d6",
-  "name" : "Login user",
-  "fullName" : "test.test_login_page.TestLoginPage#test_login_user",
-  "historyId" : "6c2f50e211582b7d400e69a491b4ffdf",
+  "uid" : "7913c245d7861ed0",
+  "name" : "Check error message in login page",
+  "fullName" : "test.test_login_page.TestLoginPage#test_message_error_for_invalid_data",
+  "historyId" : "2758b8c8d8f5b48df232f10bc24a40b6",
   "time" : {
-    "start" : 1710769470108,
-    "stop" : 1710769470533,
-    "duration" : 425
+    "start" : 1710770209333,
+    "stop" : 1710770209845,
+    "duration" : 512
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1710769464472,
-      "stop" : 1710769464488,
-      "duration" : 16
+      "start" : 1710770209331,
+      "stop" : 1710770209332,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710769469932,
-      "stop" : 1710769470107,
-      "duration" : 175
+      "start" : 1710770209152,
+      "stop" : 1710770209331,
+      "duration" : 179
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1710769470107,
-      "stop" : 1710769470107,
-      "duration" : 0
+      "start" : 1710770202353,
+      "stop" : 1710770202377,
+      "duration" : 24
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710769470108,
-        "stop" : 1710769470267,
-        "duration" : 159
+        "start" : 1710770209333,
+        "stop" : 1710770209539,
+        "duration" : 206
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,16 +77,16 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1710769470267,
-        "stop" : 1710769470511,
-        "duration" : 244
+        "start" : 1710770209539,
+        "stop" : 1710770209775,
+        "duration" : 236
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "login",
-        "value" : "'standard_user'"
+        "value" : "'locked_out_user'"
       }, {
         "name" : "password",
         "value" : "'secret_sauce'"
@@ -96,11 +96,26 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Check title in main page",
+      "name" : " Check error message in invalid password",
       "time" : {
-        "start" : 1710769470511,
-        "stop" : 1710769470533,
-        "duration" : 22
+        "start" : 1710770209776,
+        "stop" : 1710770209796,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : " Check close error message",
+      "time" : {
+        "start" : 1710770209796,
+        "stop" : 1710770209845,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,15 +130,15 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 3,
+    "stepsCount" : 4,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710769470534,
-      "stop" : 1710769470593,
-      "duration" : 59
+      "start" : 1710770209846,
+      "stop" : 1710770209907,
+      "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
@@ -135,11 +150,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "feature",
     "value" : "Login Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -154,10 +169,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1146-363"
+    "value" : "fv-az1432-153"
   }, {
     "name" : "thread",
-    "value" : "1979-MainThread"
+    "value" : "1774-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -184,54 +199,62 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
-        "uid" : "3fe85a508002d243",
+        "uid" : "802f2a654d4c7ef",
         "status" : "passed",
         "time" : {
-          "start" : 1710769233232,
-          "stop" : 1710769233698,
-          "duration" : 466
+          "start" : 1710769470771,
+          "stop" : 1710769471218,
+          "duration" : 447
         }
       }, {
-        "uid" : "9f99181e24a8d873",
+        "uid" : "e03aecb07a7868d5",
         "status" : "passed",
         "time" : {
-          "start" : 1710769020012,
-          "stop" : 1710769020439,
-          "duration" : 427
+          "start" : 1710769233940,
+          "stop" : 1710769234460,
+          "duration" : 520
         }
       }, {
-        "uid" : "8aab3ef6d72668fb",
+        "uid" : "902c0cde0f7ebeb3",
         "status" : "passed",
         "time" : {
-          "start" : 1710768998508,
-          "stop" : 1710768998935,
-          "duration" : 427
+          "start" : 1710769020676,
+          "stop" : 1710769021201,
+          "duration" : 525
         }
       }, {
-        "uid" : "f4e741f2bcfe3559",
+        "uid" : "5c431b337289d9a9",
         "status" : "passed",
         "time" : {
-          "start" : 1710768768412,
-          "stop" : 1710768768861,
-          "duration" : 449
+          "start" : 1710768999173,
+          "stop" : 1710768999614,
+          "duration" : 441
         }
       }, {
-        "uid" : "e8b47ce9a8d37f94",
+        "uid" : "c43d6629e03b383a",
         "status" : "passed",
         "time" : {
-          "start" : 1710768385336,
-          "stop" : 1710768385844,
-          "duration" : 508
+          "start" : 1710768769101,
+          "stop" : 1710768769587,
+          "duration" : 486
+        }
+      }, {
+        "uid" : "d0d279e190bab48d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710768386083,
+          "stop" : 1710768386623,
+          "duration" : 540
         }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "546d3a9441f364d6.json",
+  "source" : "7913c245d7861ed0.json",
   "parameterValues" : [ ]
 }
