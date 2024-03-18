@@ -1,51 +1,21 @@
 {
-  "uid" : "6453c40bc2ca0889",
+  "uid" : "928de44e844a97c3",
   "name" : "Login user",
   "fullName" : "test.test_login_page.TestLoginPage#test_login_user",
   "historyId" : "6c2f50e211582b7d400e69a491b4ffdf",
   "time" : {
-    "start" : 1710795656049,
-    "stop" : 1710795656503,
-    "duration" : 454
+    "start" : 1710796599069,
+    "stop" : 1710796599541,
+    "duration" : 472
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1710795650157,
-      "stop" : 1710795650173,
-      "duration" : 16
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "driver",
-    "time" : {
-      "start" : 1710795655871,
-      "stop" : 1710795656048,
-      "duration" : 177
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "setup",
     "time" : {
-      "start" : 1710795656048,
-      "stop" : 1710795656048,
+      "start" : 1710796599069,
+      "stop" : 1710796599069,
       "duration" : 0
     },
     "status" : "passed",
@@ -54,17 +24,47 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1710796598892,
+      "stop" : 1710796599068,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710796544415,
+      "stop" : 1710796544432,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710795656049,
-        "stop" : 1710795656230,
-        "duration" : 181
+        "start" : 1710796599070,
+        "stop" : 1710796599260,
+        "duration" : 190
       },
       "status" : "passed",
       "steps" : [ ],
@@ -72,14 +72,14 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1710795656230,
-        "stop" : 1710795656480,
-        "duration" : 250
+        "start" : 1710796599260,
+        "stop" : 1710796599520,
+        "duration" : 260
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,14 +93,14 @@
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "stepsCount" : 0
     }, {
       "name" : "Check title in main page",
       "time" : {
-        "start" : 1710795656480,
-        "stop" : 1710795656503,
-        "duration" : 23
+        "start" : 1710796599520,
+        "stop" : 1710796599541,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,21 +108,21 @@
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 3,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710795656504,
-      "stop" : 1710795656563,
+      "start" : 1710796599542,
+      "stop" : 1710796599601,
       "duration" : 59
     },
     "status" : "passed",
@@ -131,15 +131,15 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "feature",
     "value" : "Login Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -154,10 +154,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az732-878"
+    "value" : "fv-az1498-65"
   }, {
     "name" : "thread",
-    "value" : "1773-MainThread"
+    "value" : "1790-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -184,11 +184,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 12,
+        "passed" : 13,
         "unknown" : 0,
-        "total" : 12
+        "total" : 13
       },
       "items" : [ {
+        "uid" : "6453c40bc2ca0889",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710795656049,
+          "stop" : 1710795656503,
+          "duration" : 454
+        }
+      }, {
         "uid" : "7af4491274128e8",
         "status" : "passed",
         "time" : {
@@ -280,6 +288,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "6453c40bc2ca0889.json",
+  "source" : "928de44e844a97c3.json",
   "parameterValues" : [ ]
 }
