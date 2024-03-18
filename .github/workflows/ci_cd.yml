@@ -79,7 +79,7 @@ jobs:
       - name: Generate report URL
         if: always()
         run: |
-            echo "REPORT_URL=https://vladimirqw1221.github.io/test_ui/$GITHUB_RUN_NUMBER/" >> $GITHUB_ENV
+            echo "REPORT_URL=https://vladimirqw1221.github.io/test_ui/
           
 
       - name: Send result in telegram
