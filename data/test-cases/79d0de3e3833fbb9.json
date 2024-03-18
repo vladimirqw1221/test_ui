@@ -1,22 +1,22 @@
 {
-  "uid" : "5a0651e1038f2b9f",
+  "uid" : "79d0de3e3833fbb9",
   "name" : "Check error message for invalid data",
   "fullName" : "test.test_login_page.TestLoginPage#test_no_data_user",
   "historyId" : "ae6dc9469891f283265dcdd950a8d4f8",
   "time" : {
-    "start" : 1710796941373,
-    "stop" : 1710796941756,
-    "duration" : 383
+    "start" : 1710796939619,
+    "stop" : 1710796940066,
+    "duration" : 447
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1710796941372,
-      "stop" : 1710796941373,
-      "duration" : 1
+      "start" : 1710796914527,
+      "stop" : 1710796914543,
+      "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1710796914488,
-      "stop" : 1710796914506,
-      "duration" : 18
+      "start" : 1710796939618,
+      "stop" : 1710796939618,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710796941193,
-      "stop" : 1710796941372,
-      "duration" : 179
+      "start" : 1710796939441,
+      "stop" : 1710796939617,
+      "duration" : 176
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710796941374,
-        "stop" : 1710796941541,
-        "duration" : 167
+        "start" : 1710796939619,
+        "stop" : 1710796939862,
+        "duration" : 243
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Check error message no data",
       "time" : {
-        "start" : 1710796941541,
-        "stop" : 1710796941634,
-        "duration" : 93
+        "start" : 1710796939863,
+        "stop" : 1710796939946,
+        "duration" : 83
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Checking error message ig not password",
       "time" : {
-        "start" : 1710796941634,
-        "stop" : 1710796941756,
-        "duration" : 122
+        "start" : 1710796939947,
+        "stop" : 1710796940066,
+        "duration" : 119
       },
       "status" : "passed",
       "steps" : [ ],
@@ -118,9 +118,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710796941757,
-      "stop" : 1710796941818,
-      "duration" : 61
+      "start" : 1710796940067,
+      "stop" : 1710796940126,
+      "duration" : 59
     },
     "status" : "passed",
     "steps" : [ ],
@@ -151,10 +151,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1424-826"
+    "value" : "fv-az914-995"
   }, {
     "name" : "thread",
-    "value" : "1778-MainThread"
+    "value" : "1809-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -293,6 +293,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "5a0651e1038f2b9f.json",
+  "source" : "79d0de3e3833fbb9.json",
   "parameterValues" : [ ]
 }
