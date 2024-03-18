@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert 1 == 3",
-      "children" : [ {
-        "name" : "Fain test",
-        "uid" : "f940a98e7316de70",
-        "parentUid" : "3cf866d47a780b101bbe5ac274604b7c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1710772697986,
-          "stop" : 1710772697986,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3cf866d47a780b101bbe5ac274604b7c"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
