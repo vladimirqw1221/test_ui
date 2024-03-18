@@ -1,12 +1,12 @@
 {
-  "uid" : "f20e151307908a66",
+  "uid" : "6453c40bc2ca0889",
   "name" : "Login user",
   "fullName" : "test.test_login_page.TestLoginPage#test_login_user",
   "historyId" : "6c2f50e211582b7d400e69a491b4ffdf",
   "time" : {
-    "start" : 1710795642762,
-    "stop" : 1710795643211,
-    "duration" : 449
+    "start" : 1710795656049,
+    "stop" : 1710795656503,
+    "duration" : 454
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710795635961,
-      "stop" : 1710795635977,
+      "start" : 1710795650157,
+      "stop" : 1710795650173,
       "duration" : 16
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710795642585,
-      "stop" : 1710795642761,
-      "duration" : 176
+      "start" : 1710795655871,
+      "stop" : 1710795656048,
+      "duration" : 177
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1710795642761,
-      "stop" : 1710795642761,
+      "start" : 1710795656048,
+      "stop" : 1710795656048,
       "duration" : 0
     },
     "status" : "passed",
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710795642762,
-        "stop" : 1710795642949,
-        "duration" : 187
+        "start" : 1710795656049,
+        "stop" : 1710795656230,
+        "duration" : 181
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1710795642949,
-        "stop" : 1710795643190,
-        "duration" : 241
+        "start" : 1710795656230,
+        "stop" : 1710795656480,
+        "duration" : 250
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Check title in main page",
       "time" : {
-        "start" : 1710795643190,
-        "stop" : 1710795643211,
-        "duration" : 21
+        "start" : 1710795656480,
+        "stop" : 1710795656503,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -121,8 +121,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710795643212,
-      "stop" : 1710795643271,
+      "start" : 1710795656504,
+      "stop" : 1710795656563,
       "duration" : 59
     },
     "status" : "passed",
@@ -154,10 +154,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1251-251"
+    "value" : "fv-az732-878"
   }, {
     "name" : "thread",
-    "value" : "1776-MainThread"
+    "value" : "1773-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -280,6 +280,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "f20e151307908a66.json",
+  "source" : "6453c40bc2ca0889.json",
   "parameterValues" : [ ]
 }

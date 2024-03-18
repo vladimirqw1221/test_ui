@@ -1,12 +1,12 @@
 {
-  "uid" : "164fcfb899dc47df",
+  "uid" : "c7a6b4cf230c0403",
   "name" : "Check error message in login page",
   "fullName" : "test.test_login_page.TestLoginPage#test_message_error_for_invalid_data",
   "historyId" : "2758b8c8d8f5b48df232f10bc24a40b6",
   "time" : {
-    "start" : 1710795643449,
-    "stop" : 1710795643934,
-    "duration" : 485
+    "start" : 1710795656743,
+    "stop" : 1710795657217,
+    "duration" : 474
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1710795643448,
-      "stop" : 1710795643449,
+      "start" : 1710795656741,
+      "stop" : 1710795656742,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710795643273,
-      "stop" : 1710795643448,
-      "duration" : 175
+      "start" : 1710795656565,
+      "stop" : 1710795656741,
+      "duration" : 176
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,8 +44,8 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710795635961,
-      "stop" : 1710795635977,
+      "start" : 1710795650157,
+      "stop" : 1710795650173,
       "duration" : 16
     },
     "status" : "passed",
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710795643449,
-        "stop" : 1710795643634,
-        "duration" : 185
+        "start" : 1710795656743,
+        "stop" : 1710795656924,
+        "duration" : 181
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1710795643634,
-        "stop" : 1710795643871,
-        "duration" : 237
+        "start" : 1710795656924,
+        "stop" : 1710795657153,
+        "duration" : 229
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : " Check error message in invalid password",
       "time" : {
-        "start" : 1710795643871,
-        "stop" : 1710795643889,
-        "duration" : 18
+        "start" : 1710795657153,
+        "stop" : 1710795657172,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,8 +113,8 @@
     }, {
       "name" : " Check close error message",
       "time" : {
-        "start" : 1710795643889,
-        "stop" : 1710795643934,
+        "start" : 1710795657172,
+        "stop" : 1710795657217,
         "duration" : 45
       },
       "status" : "passed",
@@ -136,8 +136,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710795643935,
-      "stop" : 1710795643994,
+      "start" : 1710795657218,
+      "stop" : 1710795657277,
       "duration" : 59
     },
     "status" : "passed",
@@ -169,10 +169,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1251-251"
+    "value" : "fv-az732-878"
   }, {
     "name" : "thread",
-    "value" : "1776-MainThread"
+    "value" : "1773-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -295,6 +295,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "164fcfb899dc47df.json",
+  "source" : "c7a6b4cf230c0403.json",
   "parameterValues" : [ ]
 }
