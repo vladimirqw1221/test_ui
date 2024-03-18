@@ -79,7 +79,7 @@ jobs:
   notifications:
     runs-on: ubuntu-latest
     continue-on-error: true
-    needs: report
+    needs: build
     steps:
       - name: Send result in telegram
         uses: appleboy/telegram-action@master
