@@ -76,12 +76,29 @@ jobs:
           folder: allure-report
 
 
-      - name: Generate report URL
-        if: always()
-        run: |
-            echo "REPORT_URL=https://vladimirqw1221.github.io/test_ui/$GITHUB_RUN_NUMBER/" >> $GITHUB_ENV
-          
+#      - name: Generate report URL
+#        if: always()
+#        run: |
+#            echo "REPORT_URL=https://vladimirqw1221.github.io/test_ui/$GITHUB_RUN_NUMBER/" >> $GITHUB_ENV
+#
+#
+#      - name: Send result in telegram
+#        uses: appleboy/telegram-action@master
+#        if: always()
+#        with:
+#          debug: true
+#          token: ${{ secrets.TELEGRAM_TOKEN }}
+#          to: ${{ secrets.TELEGRAM_TO }}
+#          message: |
+#            Ссылка на отчет: https://vladimirqw1221.github.io/test_ui/
+##            Ссылка на отчет: ${{ env.REPORT_URL }}
 
+
+  notifications:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    needs: build
+    steps:
       - name: Send result in telegram
         uses: appleboy/telegram-action@master
         if: always()
@@ -91,4 +108,4 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           message: |
             Ссылка на отчет: https://vladimirqw1221.github.io/test_ui/
-#            Ссылка на отчет: ${{ env.REPORT_URL }}
+
