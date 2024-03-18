@@ -36,6 +36,4 @@ class TestCartPage(BaseTest):
         self.cart_page.check_cart_title()
         self.cart_page.remove_items_of_cart()
         self.cart_page.go_to_home_page()
-    @allure.title("Fain test")
-    def test_error(self):
-        assert 1 ==3
+
