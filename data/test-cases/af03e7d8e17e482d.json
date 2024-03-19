@@ -1,0 +1,396 @@
+{
+  "uid" : "af03e7d8e17e482d",
+  "name" : "Test main page checking for filter",
+  "fullName" : "test.test_main_page.TestMainPage#test_main_page",
+  "historyId" : "2b48bcfe87e877ddb01c0383a9992344",
+  "time" : {
+    "start" : 1710826839750,
+    "stop" : 1710826840345,
+    "duration" : 595
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1710826839575,
+      "stop" : 1710826839748,
+      "duration" : 173
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1710826825609,
+      "stop" : 1710826825625,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1710826839749,
+      "stop" : 1710826839749,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to https://www.saucedemo.com/",
+      "time" : {
+        "start" : 1710826839750,
+        "stop" : 1710826839904,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter data for login page",
+      "time" : {
+        "start" : 1710826839904,
+        "stop" : 1710826840146,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'standard_user'"
+      }, {
+        "name" : "password",
+        "value" : "'secret_sauce'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Checking all buttons in page",
+      "time" : {
+        "start" : 1710826840146,
+        "stop" : 1710826840184,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Remove items from cart",
+      "time" : {
+        "start" : 1710826840184,
+        "stop" : 1710826840277,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Added items in cart",
+        "time" : {
+          "start" : 1710826840184,
+          "stop" : 1710826840227,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Checking  items in cart icon",
+        "time" : {
+          "start" : 1710826840227,
+          "stop" : 1710826840241,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Remove items in cart",
+        "time" : {
+          "start" : 1710826840241,
+          "stop" : 1710826840277,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check sorting filter",
+      "time" : {
+        "start" : 1710826840277,
+        "stop" : 1710826840345,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "'lohi'"
+      }, {
+        "name" : "result",
+        "value" : "'$7.99'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1710826840346,
+      "stop" : 1710826840405,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Main page"
+  }, {
+    "name" : "tag",
+    "value" : "development"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1144-493"
+  }, {
+    "name" : "thread",
+    "value" : "1902-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "'$7.99'"
+  }, {
+    "name" : "value",
+    "value" : "'lohi'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "9e000e4b56ac9b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710796940313,
+          "stop" : 1710796941012,
+          "duration" : 699
+        }
+      }, {
+        "uid" : "2fb196842c00808c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710796601262,
+          "stop" : 1710796601938,
+          "duration" : 676
+        }
+      }, {
+        "uid" : "5f1ea33c7e01155f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710795658073,
+          "stop" : 1710795658692,
+          "duration" : 619
+        }
+      }, {
+        "uid" : "d9fb7b57ac84ee54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710794584780,
+          "stop" : 1710794585380,
+          "duration" : 600
+        }
+      }, {
+        "uid" : "585a459766ee178d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710794455594,
+          "stop" : 1710794456219,
+          "duration" : 625
+        }
+      }, {
+        "uid" : "c5e1407cc3114ab3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710791307679,
+          "stop" : 1710791308270,
+          "duration" : 591
+        }
+      }, {
+        "uid" : "b6f11db9372130bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710772703477,
+          "stop" : 1710772704144,
+          "duration" : 667
+        }
+      }, {
+        "uid" : "2fb5e91ae8e69a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710770210749,
+          "stop" : 1710770211417,
+          "duration" : 668
+        }
+      }, {
+        "uid" : "bfab82de855fe43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710769472056,
+          "stop" : 1710769472651,
+          "duration" : 595
+        }
+      }, {
+        "uid" : "99b8bff5c6313fa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710769235350,
+          "stop" : 1710769236012,
+          "duration" : 662
+        }
+      }, {
+        "uid" : "af458c80c96d3ef3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710769022044,
+          "stop" : 1710769022651,
+          "duration" : 607
+        }
+      }, {
+        "uid" : "ec0e2a6bc5427ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710769000442,
+          "stop" : 1710769001040,
+          "duration" : 598
+        }
+      }, {
+        "uid" : "cd2fe2a3722a31eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710768770440,
+          "stop" : 1710768771064,
+          "duration" : 624
+        }
+      }, {
+        "uid" : "1fa32ee668e139eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710768387540,
+          "stop" : 1710768388226,
+          "duration" : 686
+        }
+      } ]
+    },
+    "tags" : [ "development" ]
+  },
+  "source" : "af03e7d8e17e482d.json",
+  "parameterValues" : [ "'$7.99'", "'lohi'" ]
+}
