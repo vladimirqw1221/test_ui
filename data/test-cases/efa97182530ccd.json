@@ -1,12 +1,12 @@
 {
-  "uid" : "a6b628a6a24bd34b",
+  "uid" : "efa97182530ccd",
   "name" : "Login user",
   "fullName" : "test.test_login_page.TestLoginPage#test_login_user",
   "historyId" : "6c2f50e211582b7d400e69a491b4ffdf",
   "time" : {
-    "start" : 1710860423010,
-    "stop" : 1710860423465,
-    "duration" : 455
+    "start" : 1710860759565,
+    "stop" : 1710860760016,
+    "duration" : 451
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1710860422833,
-      "stop" : 1710860423009,
-      "duration" : 176
+      "start" : 1710860759389,
+      "stop" : 1710860759564,
+      "duration" : 175
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710860408666,
-      "stop" : 1710860408682,
+      "start" : 1710860752967,
+      "stop" : 1710860752983,
       "duration" : 16
     },
     "status" : "passed",
@@ -44,8 +44,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1710860423009,
-      "stop" : 1710860423010,
+      "start" : 1710860759564,
+      "stop" : 1710860759565,
       "duration" : 1
     },
     "status" : "passed",
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710860423010,
-        "stop" : 1710860423198,
-        "duration" : 188
+        "start" : 1710860759565,
+        "stop" : 1710860759750,
+        "duration" : 185
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1710860423198,
-        "stop" : 1710860423442,
-        "duration" : 244
+        "start" : 1710860759750,
+        "stop" : 1710860759993,
+        "duration" : 243
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Check title in main page",
       "time" : {
-        "start" : 1710860423442,
-        "stop" : 1710860423464,
-        "duration" : 22
+        "start" : 1710860759993,
+        "stop" : 1710860760016,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -121,9 +121,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710860423465,
-      "stop" : 1710860423524,
-      "duration" : 59
+      "start" : 1710860760016,
+      "stop" : 1710860760076,
+      "duration" : 60
     },
     "status" : "passed",
     "steps" : [ ],
@@ -135,11 +135,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Login Page"
-  }, {
     "name" : "severity",
     "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Login Page"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -154,10 +154,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az529-372"
+    "value" : "fv-az1382-873"
   }, {
     "name" : "thread",
-    "value" : "1786-MainThread"
+    "value" : "1806-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -184,11 +184,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 33,
+        "passed" : 34,
         "unknown" : 0,
-        "total" : 33
+        "total" : 34
       },
       "items" : [ {
+        "uid" : "a6b628a6a24bd34b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710860423010,
+          "stop" : 1710860423465,
+          "duration" : 455
+        }
+      }, {
         "uid" : "b369e1f07b0373a6",
         "status" : "passed",
         "time" : {
@@ -340,18 +348,10 @@
           "stop" : 1710796938572,
           "duration" : 506
         }
-      }, {
-        "uid" : "928de44e844a97c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1710796599069,
-          "stop" : 1710796599541,
-          "duration" : 472
-        }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "a6b628a6a24bd34b.json",
+  "source" : "efa97182530ccd.json",
   "parameterValues" : [ ]
 }
