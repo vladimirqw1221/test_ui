@@ -1,22 +1,22 @@
 {
-  "uid" : "347d8c6d8d589bb0",
+  "uid" : "cc90a3f339069158",
   "name" : "Check error message for invalid data",
   "fullName" : "test.test_login_page.TestLoginPage#test_no_data_user",
   "historyId" : "ae6dc9469891f283265dcdd950a8d4f8",
   "time" : {
-    "start" : 1710915016731,
-    "stop" : 1710915017073,
-    "duration" : 342
+    "start" : 1710922643340,
+    "stop" : 1710922643693,
+    "duration" : 353
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1710915016730,
-      "stop" : 1710915016731,
-      "duration" : 1
+      "start" : 1710922630060,
+      "stop" : 1710922630076,
+      "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1710915016553,
-      "stop" : 1710915016730,
-      "duration" : 177
+      "start" : 1710922643166,
+      "stop" : 1710922643339,
+      "duration" : 173
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1710914994545,
-      "stop" : 1710914994561,
-      "duration" : 16
+      "start" : 1710922643339,
+      "stop" : 1710922643340,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710915016731,
-        "stop" : 1710915016871,
-        "duration" : 140
+        "start" : 1710922643340,
+        "stop" : 1710922643490,
+        "duration" : 150
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Check error message no data",
       "time" : {
-        "start" : 1710915016871,
-        "stop" : 1710915016958,
-        "duration" : 87
+        "start" : 1710922643491,
+        "stop" : 1710922643576,
+        "duration" : 85
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Checking error message ig not password",
       "time" : {
-        "start" : 1710915016958,
-        "stop" : 1710915017073,
-        "duration" : 115
+        "start" : 1710922643576,
+        "stop" : 1710922643693,
+        "duration" : 117
       },
       "status" : "passed",
       "steps" : [ ],
@@ -118,8 +118,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710915017074,
-      "stop" : 1710915017133,
+      "start" : 1710922643694,
+      "stop" : 1710922643753,
       "duration" : 59
     },
     "status" : "passed",
@@ -151,10 +151,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az569-478"
+    "value" : "fv-az1530-442"
   }, {
     "name" : "thread",
-    "value" : "1838-MainThread"
+    "value" : "1789-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -181,11 +181,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 37,
+        "passed" : 38,
         "unknown" : 0,
-        "total" : 37
+        "total" : 38
       },
       "items" : [ {
+        "uid" : "347d8c6d8d589bb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710915016731,
+          "stop" : 1710915017073,
+          "duration" : 342
+        }
+      }, {
         "uid" : "9e5ec0df0a402a08",
         "status" : "passed",
         "time" : {
@@ -337,18 +345,10 @@
           "stop" : 1710829824908,
           "duration" : 385
         }
-      }, {
-        "uid" : "41eeaed65153766f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1710829210031,
-          "stop" : 1710829210420,
-          "duration" : 389
-        }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "347d8c6d8d589bb0.json",
+  "source" : "cc90a3f339069158.json",
   "parameterValues" : [ ]
 }
