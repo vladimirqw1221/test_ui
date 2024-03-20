@@ -1,21 +1,36 @@
 {
-  "uid" : "de7c91b9b42266ad",
+  "uid" : "ca0f8527398bba24",
   "name" : "Test main page checking for filter",
   "fullName" : "test.test_main_page.TestMainPage#test_main_page",
   "historyId" : "2b48bcfe87e877ddb01c0383a9992344",
   "time" : {
-    "start" : 1710968608706,
-    "stop" : 1710968609317,
-    "duration" : 611
+    "start" : 1710971897152,
+    "stop" : 1710971897816,
+    "duration" : 664
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1710971896971,
+      "stop" : 1710971897151,
+      "duration" : 180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "setup",
     "time" : {
-      "start" : 1710968608705,
-      "stop" : 1710968608706,
+      "start" : 1710971897151,
+      "stop" : 1710971897152,
       "duration" : 1
     },
     "status" : "passed",
@@ -29,24 +44,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1710968586317,
-      "stop" : 1710968586333,
+      "start" : 1710971887751,
+      "stop" : 1710971887767,
       "duration" : 16
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "driver",
-    "time" : {
-      "start" : 1710968608531,
-      "stop" : 1710968608705,
-      "duration" : 174
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1710968608707,
-        "stop" : 1710968608879,
-        "duration" : 172
+        "start" : 1710971897153,
+        "stop" : 1710971897326,
+        "duration" : 173
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1710968608879,
-        "stop" : 1710968609118,
-        "duration" : 239
+        "start" : 1710971897326,
+        "stop" : 1710971897577,
+        "duration" : 251
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Checking all buttons in page",
       "time" : {
-        "start" : 1710968609119,
-        "stop" : 1710968609157,
-        "duration" : 38
+        "start" : 1710971897577,
+        "stop" : 1710971897619,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,17 +113,17 @@
     }, {
       "name" : "Remove items from cart",
       "time" : {
-        "start" : 1710968609158,
-        "stop" : 1710968609250,
-        "duration" : 92
+        "start" : 1710971897620,
+        "stop" : 1710971897742,
+        "duration" : 122
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Added items in cart",
         "time" : {
-          "start" : 1710968609158,
-          "stop" : 1710968609200,
-          "duration" : 42
+          "start" : 1710971897620,
+          "stop" : 1710971897663,
+          "duration" : 43
         },
         "status" : "passed",
         "steps" : [ ],
@@ -136,9 +136,9 @@
       }, {
         "name" : "Checking  items in cart icon",
         "time" : {
-          "start" : 1710968609200,
-          "stop" : 1710968609214,
-          "duration" : 14
+          "start" : 1710971897663,
+          "stop" : 1710971897679,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ ],
@@ -151,9 +151,9 @@
       }, {
         "name" : "Remove items in cart",
         "time" : {
-          "start" : 1710968609214,
-          "stop" : 1710968609250,
-          "duration" : 36
+          "start" : 1710971897679,
+          "stop" : 1710971897742,
+          "duration" : 63
         },
         "status" : "passed",
         "steps" : [ ],
@@ -173,9 +173,9 @@
     }, {
       "name" : "Check sorting filter",
       "time" : {
-        "start" : 1710968609250,
-        "stop" : 1710968609317,
-        "duration" : 67
+        "start" : 1710971897742,
+        "stop" : 1710971897816,
+        "duration" : 74
       },
       "status" : "passed",
       "steps" : [ ],
@@ -202,9 +202,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1710968609318,
-      "stop" : 1710968609377,
-      "duration" : 59
+      "start" : 1710971897817,
+      "stop" : 1710971897879,
+      "duration" : 62
     },
     "status" : "passed",
     "steps" : [ ],
@@ -235,10 +235,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1385-502"
+    "value" : "fv-az693-908"
   }, {
     "name" : "thread",
-    "value" : "1781-MainThread"
+    "value" : "1764-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -271,11 +271,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 41,
+        "passed" : 42,
         "unknown" : 0,
-        "total" : 41
+        "total" : 42
       },
       "items" : [ {
+        "uid" : "de7c91b9b42266ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710968608706,
+          "stop" : 1710968609317,
+          "duration" : 611
+        }
+      }, {
         "uid" : "9160e8dcf43d8dca",
         "status" : "passed",
         "time" : {
@@ -427,18 +435,10 @@
           "stop" : 1710846619952,
           "duration" : 638
         }
-      }, {
-        "uid" : "6abd91f42cd89d7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1710831626685,
-          "stop" : 1710831627277,
-          "duration" : 592
-        }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "de7c91b9b42266ad.json",
+  "source" : "ca0f8527398bba24.json",
   "parameterValues" : [ "'$7.99'", "'lohi'" ]
 }
