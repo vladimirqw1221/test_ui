@@ -1,140 +1,140 @@
 [ {
-  "uid" : "27b434713e8237ff",
+  "uid" : "d39f67c15c12a348",
   "name" : "Test main page checking for filter",
   "time" : {
-    "start" : 1710939397491,
-    "stop" : 1710939398143,
-    "duration" : 652
+    "start" : 1710956729345,
+    "stop" : 1710956729985,
+    "duration" : 640
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2326f8772b9e80b0",
-  "name" : "end to end path for business proces",
-  "time" : {
-    "start" : 1710939391432,
-    "stop" : 1710939392290,
-    "duration" : 858
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "f275adb14e9c45e4",
-  "name" : "Check fields checkout page and fill data",
-  "time" : {
-    "start" : 1710939390396,
-    "stop" : 1710939391192,
-    "duration" : 796
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d9c957eee0e8dd64",
+  "uid" : "9160e8dcf43d8dca",
   "name" : "Test main page checking for filter",
   "time" : {
-    "start" : 1710939394727,
-    "stop" : 1710939395410,
+    "start" : 1710956726590,
+    "stop" : 1710956727263,
+    "duration" : 673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b6373e89885859c",
+  "name" : "Check error message in login page",
+  "time" : {
+    "start" : 1710956725090,
+    "stop" : 1710956725687,
+    "duration" : 597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e6417595de271e",
+  "name" : "Remove items in cart",
+  "time" : {
+    "start" : 1710956719927,
+    "stop" : 1710956720660,
+    "duration" : 733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60b54875f13762ea",
+  "name" : "Check all product in your cart",
+  "time" : {
+    "start" : 1710956717065,
+    "stop" : 1710956719687,
+    "duration" : 2622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfa1a75834a19f3b",
+  "name" : "Check checkout page and back home page",
+  "time" : {
+    "start" : 1710956720898,
+    "stop" : 1710956721663,
+    "duration" : 765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "812f721c3a093cb9",
+  "name" : "Test main page checking for filter",
+  "time" : {
+    "start" : 1710956728426,
+    "stop" : 1710956729106,
+    "duration" : 680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad34f1986e870148",
+  "name" : "Check fields checkout page and fill data",
+  "time" : {
+    "start" : 1710956721902,
+    "stop" : 1710956722736,
+    "duration" : 834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cedd5f8dd7855799",
+  "name" : "Test main page checking for filter",
+  "time" : {
+    "start" : 1710956727502,
+    "stop" : 1710956728185,
     "duration" : 683
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5b99e23d454407c8",
+  "uid" : "175f016c7c767ff1",
   "name" : "Check error message for invalid data",
   "time" : {
-    "start" : 1710939394060,
-    "stop" : 1710939394491,
-    "duration" : 431
+    "start" : 1710956725927,
+    "stop" : 1710956726352,
+    "duration" : 425
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "161b7af632282176",
-  "name" : "Test main page checking for filter",
+  "uid" : "9a1593785af3a507",
+  "name" : "end to end path for business proces",
   "time" : {
-    "start" : 1710939396565,
-    "stop" : 1710939397253,
-    "duration" : 688
+    "start" : 1710956722975,
+    "stop" : 1710956724120,
+    "duration" : 1145
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "critical"
 }, {
-  "uid" : "a64a6c6d357a85f8",
-  "name" : "Remove items in cart",
-  "time" : {
-    "start" : 1710939388323,
-    "stop" : 1710939389063,
-    "duration" : 740
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0e820a1dd7bfa",
-  "name" : "Check all price of  overview page",
-  "time" : {
-    "start" : 1710939399369,
-    "stop" : 1710939400284,
-    "duration" : 915
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c1e354fd956dbb6c",
+  "uid" : "7a8eb4ac61b90650",
   "name" : "Login user",
   "time" : {
-    "start" : 1710939392532,
-    "stop" : 1710939393037,
-    "duration" : 505
+    "start" : 1710956724359,
+    "stop" : 1710956724851,
+    "duration" : 492
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1eeec5758fac24ab",
-  "name" : "Check checkout page and back home page",
-  "time" : {
-    "start" : 1710939389300,
-    "stop" : 1710939390125,
-    "duration" : 825
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "24d05274b778422b",
-  "name" : "Check error message in login page",
-  "time" : {
-    "start" : 1710939393274,
-    "stop" : 1710939393823,
-    "duration" : 549
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40554461d8a46103",
-  "name" : "Check all product in your cart",
-  "time" : {
-    "start" : 1710939385839,
-    "stop" : 1710939388085,
-    "duration" : 2246
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2a77834b19f190c",
+  "uid" : "76a722321a48fc6c",
   "name" : "Test checking random items in cart",
   "time" : {
-    "start" : 1710939398379,
-    "stop" : 1710939399133,
-    "duration" : 754
+    "start" : 1710956730234,
+    "stop" : 1710956730977,
+    "duration" : 743
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8e2c7ec7220235e7",
-  "name" : "Test main page checking for filter",
+  "uid" : "1114bc1e3cc1bb86",
+  "name" : "Check all price of  overview page",
   "time" : {
-    "start" : 1710939395647,
-    "stop" : 1710939396328,
-    "duration" : 681
+    "start" : 1710956731216,
+    "stop" : 1710956732113,
+    "duration" : 897
   },
   "status" : "passed",
   "severity" : "normal"
