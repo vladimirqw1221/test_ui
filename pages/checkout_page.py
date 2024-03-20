@@ -41,9 +41,9 @@ class CheckoutPage(BaseClass):
         first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')
         last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')
         postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')
-        assert first_name == "First Name"
-        assert last_name == "Last Name"
-        assert postcode == "Zip/Postal Code"
+        assert first_name == "First Nam", self.make_screenshot_in_report(self.name_page)
+        assert last_name == "Last Name", self.make_screenshot_in_report(self.name_page)
+        assert postcode == "Zip/Postal Code", self.make_screenshot_in_report(self.name_page)
 
     @allure.step("Enter data for checkout page")
     def enter_data_in_fields(self) -> None:
