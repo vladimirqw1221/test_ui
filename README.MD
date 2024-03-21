@@ -40,17 +40,15 @@ allure serve allure-resulte/
 - Launch the bot by sending the /start command
 - Tap on button [Запустить тесты]
 
-<div style="width:300px; height:300px;">
+<div style="width:200px; height:300px;">
 
-  ![Alt текст](https://lh3.googleusercontent.com/drive-viewer/AKGpihamwoK-QiOJikPcUZkcMBmmGy-4hXucMNpInzdQU6MIQUcZVfqFYu7EywMnjz4pGkk77jmkJYCYAa9S0HhBQJ9E9c4h=s2560)
-
+  ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihamwoK-QiOJikPcUZkcMBmmGy-4hXucMNpInzdQU6MIQUcZVfqFYu7EywMnjz4pGkk77jmkJYCYAa9S0HhBQJ9E9c4h=s2560)
 </div>
-
 - Navigate to allure report
 
-<div style="width:300px; height:300px;">
+<div style="width:200px; height:300px;">
 
-  ![Alt текст](https://lh3.googleusercontent.com/drive-viewer/AKGpihZ1H7Jl_cB3QAf3VW46DI6Bt3fPueg_VtNwSmyk8Rg1xPNnuT60IaKmU_6Er6l0i2d1lV0sZqxt8Znis5pHK-yFkp4oMw=s1600)
+  ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihZ1H7Jl_cB3QAf3VW46DI6Bt3fPueg_VtNwSmyk8Rg1xPNnuT60IaKmU_6Er6l0i2d1lV0sZqxt8Znis5pHK-yFkp4oMw=s1600)
 
 </div>
 
