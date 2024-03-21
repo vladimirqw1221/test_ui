@@ -44,7 +44,10 @@ allure serve allure-resulte/
 
   ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihamwoK-QiOJikPcUZkcMBmmGy-4hXucMNpInzdQU6MIQUcZVfqFYu7EywMnjz4pGkk77jmkJYCYAa9S0HhBQJ9E9c4h=s2560)
 </div>
+
 - Navigate to allure report
+
+<br>
 
 <div style="width:200px; height:300px;">
 
