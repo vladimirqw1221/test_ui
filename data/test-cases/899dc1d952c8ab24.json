@@ -1,12 +1,12 @@
 {
-  "uid" : "2cc3854356eb5578",
+  "uid" : "899dc1d952c8ab24",
   "name" : "Check error message in login page",
   "fullName" : "test.test_login_page.TestLoginPage#test_message_error_for_invalid_data",
   "historyId" : "2758b8c8d8f5b48df232f10bc24a40b6",
   "time" : {
-    "start" : 1711197023959,
-    "stop" : 1711197024443,
-    "duration" : 484
+    "start" : 1711203647249,
+    "stop" : 1711203647738,
+    "duration" : 489
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1711197000097,
-      "stop" : 1711197000113,
+      "start" : 1711203640709,
+      "stop" : 1711203640725,
       "duration" : 16
     },
     "status" : "passed",
@@ -29,8 +29,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1711197023957,
-      "stop" : 1711197023958,
+      "start" : 1711203647248,
+      "stop" : 1711203647249,
       "duration" : 1
     },
     "status" : "passed",
@@ -44,9 +44,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1711197023782,
-      "stop" : 1711197023957,
-      "duration" : 175
+      "start" : 1711203647072,
+      "stop" : 1711203647248,
+      "duration" : 176
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1711197023959,
-        "stop" : 1711197024124,
-        "duration" : 165
+        "start" : 1711203647249,
+        "stop" : 1711203647448,
+        "duration" : 199
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1711197024125,
-        "stop" : 1711197024370,
-        "duration" : 245
+        "start" : 1711203647449,
+        "stop" : 1711203647676,
+        "duration" : 227
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : " Check error message in invalid password",
       "time" : {
-        "start" : 1711197024370,
-        "stop" : 1711197024390,
-        "duration" : 20
+        "start" : 1711203647676,
+        "stop" : 1711203647694,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : " Check close error message",
       "time" : {
-        "start" : 1711197024390,
-        "stop" : 1711197024443,
-        "duration" : 53
+        "start" : 1711203647694,
+        "stop" : 1711203647738,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -136,8 +136,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1711197024444,
-      "stop" : 1711197024503,
+      "start" : 1711203647739,
+      "stop" : 1711203647798,
       "duration" : 59
     },
     "status" : "passed",
@@ -150,11 +150,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "feature",
     "value" : "Login Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -169,10 +169,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az520-358"
+    "value" : "fv-az1118-579"
   }, {
     "name" : "thread",
-    "value" : "1826-MainThread"
+    "value" : "1801-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -199,11 +199,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 46,
+        "passed" : 47,
         "unknown" : 0,
-        "total" : 46
+        "total" : 47
       },
       "items" : [ {
+        "uid" : "2cc3854356eb5578",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711197023959,
+          "stop" : 1711197024443,
+          "duration" : 484
+        }
+      }, {
         "uid" : "d8babc1c0bea5896",
         "status" : "passed",
         "time" : {
@@ -355,18 +363,10 @@
           "stop" : 1710849151660,
           "duration" : 455
         }
-      }, {
-        "uid" : "7220dca9159ade74",
-        "status" : "passed",
-        "time" : {
-          "start" : 1710848488829,
-          "stop" : 1710848489289,
-          "duration" : 460
-        }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "2cc3854356eb5578.json",
+  "source" : "899dc1d952c8ab24.json",
   "parameterValues" : [ ]
 }
