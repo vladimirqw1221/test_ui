@@ -1,22 +1,22 @@
 {
-  "uid" : "a6b54e5516e5088b",
+  "uid" : "b7db7ac46de561e1",
   "name" : "Test main page checking for filter",
   "fullName" : "test.test_main_page.TestMainPage#test_main_page",
-  "historyId" : "2b48bcfe87e877ddb01c0383a9992344",
+  "historyId" : "281d71695c69a0ca0edb3d77df2e4577",
   "time" : {
-    "start" : 1711313506003,
-    "stop" : 1711313506622,
-    "duration" : 619
+    "start" : 1711313828009,
+    "stop" : 1711313828683,
+    "duration" : 674
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1711313506001,
-      "stop" : 1711313506002,
-      "duration" : 1
+      "start" : 1711313817569,
+      "stop" : 1711313817591,
+      "duration" : 22
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1711313505824,
-      "stop" : 1711313506001,
-      "duration" : 177
+      "start" : 1711313827834,
+      "stop" : 1711313828007,
+      "duration" : 173
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1711313488922,
-      "stop" : 1711313488939,
-      "duration" : 17
+      "start" : 1711313828007,
+      "stop" : 1711313828008,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1711313506003,
-        "stop" : 1711313506169,
-        "duration" : 166
+        "start" : 1711313828009,
+        "stop" : 1711313828242,
+        "duration" : 233
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1711313506169,
-        "stop" : 1711313506416,
-        "duration" : 247
+        "start" : 1711313828242,
+        "stop" : 1711313828486,
+        "duration" : 244
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Checking all buttons in page",
       "time" : {
-        "start" : 1711313506416,
-        "stop" : 1711313506456,
-        "duration" : 40
+        "start" : 1711313828487,
+        "stop" : 1711313828523,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,16 +113,16 @@
     }, {
       "name" : "Remove items from cart",
       "time" : {
-        "start" : 1711313506456,
-        "stop" : 1711313506551,
-        "duration" : 95
+        "start" : 1711313828523,
+        "stop" : 1711313828616,
+        "duration" : 93
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Added items in cart",
         "time" : {
-          "start" : 1711313506456,
-          "stop" : 1711313506499,
+          "start" : 1711313828523,
+          "stop" : 1711313828566,
           "duration" : 43
         },
         "status" : "passed",
@@ -136,9 +136,9 @@
       }, {
         "name" : "Checking  items in cart icon",
         "time" : {
-          "start" : 1711313506499,
-          "stop" : 1711313506514,
-          "duration" : 15
+          "start" : 1711313828566,
+          "stop" : 1711313828580,
+          "duration" : 14
         },
         "status" : "passed",
         "steps" : [ ],
@@ -151,9 +151,9 @@
       }, {
         "name" : "Remove items in cart",
         "time" : {
-          "start" : 1711313506514,
-          "stop" : 1711313506551,
-          "duration" : 37
+          "start" : 1711313828580,
+          "stop" : 1711313828615,
+          "duration" : 35
         },
         "status" : "passed",
         "steps" : [ ],
@@ -173,19 +173,19 @@
     }, {
       "name" : "Check sorting filter",
       "time" : {
-        "start" : 1711313506551,
-        "stop" : 1711313506622,
-        "duration" : 71
+        "start" : 1711313828616,
+        "stop" : 1711313828683,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "value",
-        "value" : "'lohi'"
+        "value" : "'hilo'"
       }, {
         "name" : "result",
-        "value" : "'$7.99'"
+        "value" : "'$49.99'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -202,8 +202,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1711313506623,
-      "stop" : 1711313506682,
+      "start" : 1711313828684,
+      "stop" : 1711313828743,
       "duration" : 59
     },
     "status" : "passed",
@@ -216,11 +216,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Main page"
-  }, {
     "name" : "severity",
     "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Main page"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -235,10 +235,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az777-457"
+    "value" : "fv-az915-384"
   }, {
     "name" : "thread",
-    "value" : "1819-MainThread"
+    "value" : "1825-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -254,10 +254,10 @@
   } ],
   "parameters" : [ {
     "name" : "result",
-    "value" : "'$7.99'"
+    "value" : "'$49.99'"
   }, {
     "name" : "value",
-    "value" : "'lohi'"
+    "value" : "'hilo'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -271,174 +271,174 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 59,
+        "passed" : 60,
         "unknown" : 0,
-        "total" : 59
+        "total" : 60
       },
       "items" : [ {
-        "uid" : "8a80c11628145764",
+        "uid" : "57d7262877a2c756",
         "status" : "passed",
         "time" : {
-          "start" : 1711312952621,
-          "stop" : 1711312953313,
+          "start" : 1711313506862,
+          "stop" : 1711313507480,
+          "duration" : 618
+        }
+      }, {
+        "uid" : "b6b9de9a451fa47f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711312953552,
+          "stop" : 1711312954244,
           "duration" : 692
         }
       }, {
-        "uid" : "a6365df325b438b5",
+        "uid" : "49e29bd2dd954cfc",
         "status" : "passed",
         "time" : {
-          "start" : 1711312660422,
-          "stop" : 1711312661054,
-          "duration" : 632
+          "start" : 1711312661293,
+          "stop" : 1711312661923,
+          "duration" : 630
         }
       }, {
-        "uid" : "cf333041438a924a",
+        "uid" : "4297fe1ee8317a95",
         "status" : "passed",
         "time" : {
-          "start" : 1711311021738,
-          "stop" : 1711311022384,
-          "duration" : 646
-        }
-      }, {
-        "uid" : "51e33a20d247b5f7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711309749482,
-          "stop" : 1711309750689,
-          "duration" : 1207
-        }
-      }, {
-        "uid" : "95ef9ae0732038ce",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711304079808,
-          "stop" : 1711304080445,
-          "duration" : 637
-        }
-      }, {
-        "uid" : "99c8322f5ab7358e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711297207935,
-          "stop" : 1711297208549,
-          "duration" : 614
-        }
-      }, {
-        "uid" : "39fa4854c5c342e3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711295949389,
-          "stop" : 1711295950084,
-          "duration" : 695
-        }
-      }, {
-        "uid" : "f7184e11ac00f837",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711295671666,
-          "stop" : 1711295672395,
-          "duration" : 729
-        }
-      }, {
-        "uid" : "f14cf0b7fc361870",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711295251154,
-          "stop" : 1711295251744,
-          "duration" : 590
-        }
-      }, {
-        "uid" : "5adb35b43331b7e7",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711286471438,
-          "stop" : 1711286472118,
-          "duration" : 680
-        }
-      }, {
-        "uid" : "955ffb5cab098172",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711213735164,
-          "stop" : 1711213735871,
-          "duration" : 707
-        }
-      }, {
-        "uid" : "fbe572acf04d0d01",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711203648609,
-          "stop" : 1711203649246,
-          "duration" : 637
-        }
-      }, {
-        "uid" : "19fcde1b3390377e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711197025271,
-          "stop" : 1711197025910,
+          "start" : 1711311022624,
+          "stop" : 1711311023263,
           "duration" : 639
         }
       }, {
-        "uid" : "e56faab7c89829fe",
+        "uid" : "28980fd101ae5594",
         "status" : "passed",
         "time" : {
-          "start" : 1711031299035,
-          "stop" : 1711031299713,
-          "duration" : 678
+          "start" : 1711309750927,
+          "stop" : 1711309751528,
+          "duration" : 601
         }
       }, {
-        "uid" : "78918715c62281fc",
+        "uid" : "9ad158598b448547",
         "status" : "passed",
         "time" : {
-          "start" : 1711008570055,
-          "stop" : 1711008570777,
-          "duration" : 722
+          "start" : 1711304080683,
+          "stop" : 1711304081327,
+          "duration" : 644
         }
       }, {
-        "uid" : "e55fbed526ec5991",
+        "uid" : "1296034817632fff",
         "status" : "passed",
         "time" : {
-          "start" : 1711002398482,
-          "stop" : 1711002399084,
-          "duration" : 602
+          "start" : 1711297208791,
+          "stop" : 1711297209396,
+          "duration" : 605
         }
       }, {
-        "uid" : "ca0f8527398bba24",
+        "uid" : "b18705e2ff2b3202",
         "status" : "passed",
         "time" : {
-          "start" : 1710971897152,
-          "stop" : 1710971897816,
-          "duration" : 664
+          "start" : 1711295950323,
+          "stop" : 1711295951014,
+          "duration" : 691
         }
       }, {
-        "uid" : "de7c91b9b42266ad",
+        "uid" : "aed649d72ef503a8",
         "status" : "passed",
         "time" : {
-          "start" : 1710968608706,
-          "stop" : 1710968609317,
-          "duration" : 611
+          "start" : 1711295672639,
+          "stop" : 1711295673354,
+          "duration" : 715
         }
       }, {
-        "uid" : "9160e8dcf43d8dca",
+        "uid" : "575ab818c5c94b03",
         "status" : "passed",
         "time" : {
-          "start" : 1710956726590,
-          "stop" : 1710956727263,
-          "duration" : 673
+          "start" : 1711295251983,
+          "stop" : 1711295252569,
+          "duration" : 586
         }
       }, {
-        "uid" : "d9c957eee0e8dd64",
+        "uid" : "7b3101ab6734d220",
         "status" : "passed",
         "time" : {
-          "start" : 1710939394727,
-          "stop" : 1710939395410,
+          "start" : 1711286472356,
+          "stop" : 1711286473032,
+          "duration" : 676
+        }
+      }, {
+        "uid" : "1240e499a6959be8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711213736117,
+          "stop" : 1711213736777,
+          "duration" : 660
+        }
+      }, {
+        "uid" : "abc791188c2d8ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711203649486,
+          "stop" : 1711203650122,
+          "duration" : 636
+        }
+      }, {
+        "uid" : "7679d5262b9a64bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711197026150,
+          "stop" : 1711197026789,
+          "duration" : 639
+        }
+      }, {
+        "uid" : "56606feb74be103f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711031299955,
+          "stop" : 1711031300664,
+          "duration" : 709
+        }
+      }, {
+        "uid" : "8503e440d5fad4d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711008571023,
+          "stop" : 1711008571673,
+          "duration" : 650
+        }
+      }, {
+        "uid" : "8c5908d52bd6988a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711002399321,
+          "stop" : 1711002399956,
+          "duration" : 635
+        }
+      }, {
+        "uid" : "4a0bf6907b84a547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710971898061,
+          "stop" : 1710971898702,
+          "duration" : 641
+        }
+      }, {
+        "uid" : "9b775aa87cbd201c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710968609555,
+          "stop" : 1710968610159,
+          "duration" : 604
+        }
+      }, {
+        "uid" : "cedd5f8dd7855799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710956727502,
+          "stop" : 1710956728185,
           "duration" : 683
         }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "a6b54e5516e5088b.json",
-  "parameterValues" : [ "'$7.99'", "'lohi'" ]
+  "source" : "b7db7ac46de561e1.json",
+  "parameterValues" : [ "'$49.99'", "'hilo'" ]
 }
