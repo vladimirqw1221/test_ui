@@ -38,12 +38,23 @@ allure serve allure-resulte/
 
 - Navigate to the [bot](https://t.me/testretres_bot)
 - Launch the bot by sending the /start command
-- Tap on button [Запустить тесты]
+
+
 
 <div style="width:200px; height:300px;">
 
-  ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihamwoK-QiOJikPcUZkcMBmmGy-4hXucMNpInzdQU6MIQUcZVfqFYu7EywMnjz4pGkk77jmkJYCYAa9S0HhBQJ9E9c4h=s2560)
+  ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihY82WKIC4fLY2jytIINNNFMPZlnExgu5DOhqOYDXz5UdMVc4ghv7p9X5ol0tIBt8I7Q5w5XFsq9S1LaLNEvn6CA2esQXQ=s1600)
 </div>
+
+- Enter password
+
+<div style="width:200px; height:300px;">
+
+  ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihbBbuTqfInuAmLn_8wj35z4nAqo4sFltScD47OjL0j-nphWDZl7fJxPQrRvPTNyERuRXcGyFGUbQQWFcA_mQhHMUKZZhw=s1600)
+</div>
+<br>
+
+- Tap on button [Запустить тесты]
 
 - Navigate to allure report
 
@@ -51,7 +62,7 @@ allure serve allure-resulte/
 
 <div style="width:200px; height:300px;">
 
-  ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihZ1H7Jl_cB3QAf3VW46DI6Bt3fPueg_VtNwSmyk8Rg1xPNnuT60IaKmU_6Er6l0i2d1lV0sZqxt8Znis5pHK-yFkp4oMw=s1600)
+  ![](https://lh3.googleusercontent.com/drive-viewer/AKGpihZISfrh7aHfm6qr0f3SFrboA8tszyMfjYToSzhwiei8mL8I6Z6dJNJ5DbfN7V-lPDj6eX8aSCJpgoQ5WNMNFWgcDUS1CA=s2560)
 
 </div>
 
