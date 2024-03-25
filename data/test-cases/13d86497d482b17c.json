@@ -1,85 +1,85 @@
 {
-  "uid" : "c29508b9cac1d0e1",
+  "uid" : "13d86497d482b17c",
   "name" : "Test checking random items in cart",
   "fullName" : "test.test_main_page.TestMainPage#test_product_details_page",
   "historyId" : "369e43f23a21151926ca70c9b0ad1a18",
   "time" : {
-    "start" : 1711339273953,
-    "stop" : 1711339274702,
-    "duration" : 749
+    "start" : 1711339513333,
+    "stop" : 1711339514041,
+    "duration" : 708
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
-    "time" : {
-      "start" : 1711339273780,
-      "stop" : 1711339273952,
-      "duration" : 172
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1711339254715,
-      "stop" : 1711339254730,
-      "duration" : 15
+      "start" : 1711339500542,
+      "stop" : 1711339500560,
+      "duration" : 18
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "stepsCount" : 0
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1711339273952,
-      "stop" : 1711339273953,
-      "duration" : 1
+      "start" : 1711339513332,
+      "stop" : 1711339513332,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1711339513155,
+      "stop" : 1711339513331,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1711339273953,
-        "stop" : 1711339274192,
-        "duration" : 239
+        "start" : 1711339513333,
+        "stop" : 1711339513500,
+        "duration" : 167
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "stepsCount" : 0
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1711339274192,
-        "stop" : 1711339274431,
-        "duration" : 239
+        "start" : 1711339513500,
+        "stop" : 1711339513762,
+        "duration" : 262
       },
       "status" : "passed",
       "steps" : [ ],
@@ -91,205 +91,205 @@
         "name" : "password",
         "value" : "'secret_sauce'"
       } ],
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "stepsCount" : 0
     }, {
       "name" : "Check product details page",
       "time" : {
-        "start" : 1711339274432,
-        "stop" : 1711339274611,
-        "duration" : 179
+        "start" : 1711339513762,
+        "stop" : 1711339513945,
+        "duration" : 183
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navigate to PDP",
         "time" : {
-          "start" : 1711339274432,
-          "stop" : 1711339274474,
-          "duration" : 42
+          "start" : 1711339513762,
+          "stop" : 1711339513803,
+          "duration" : 41
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : false,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
+        "stepsCount" : 0
       }, {
         "name" : "Add item to cart",
         "time" : {
-          "start" : 1711339274474,
-          "stop" : 1711339274509,
-          "duration" : 35
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
-      }, {
-        "name" : "Checking  items in cart icon",
-        "time" : {
-          "start" : 1711339274509,
-          "stop" : 1711339274525,
-          "duration" : 16
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
-      }, {
-        "name" : "Remove item in cart adn check count cart",
-        "time" : {
-          "start" : 1711339274525,
-          "stop" : 1711339274561,
+          "start" : 1711339513803,
+          "stop" : 1711339513839,
           "duration" : 36
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : false,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
+        "stepsCount" : 0
       }, {
-        "name" : "Check attribute for product",
+        "name" : "Checking  items in cart icon",
         "time" : {
-          "start" : 1711339274561,
-          "stop" : 1711339274573,
-          "duration" : 12
+          "start" : 1711339513839,
+          "stop" : 1711339513856,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : false,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
+        "stepsCount" : 0
       }, {
-        "name" : "Navigate to main page",
+        "name" : "Remove item in cart adn check count cart",
         "time" : {
-          "start" : 1711339274573,
-          "stop" : 1711339274611,
+          "start" : 1711339513856,
+          "stop" : 1711339513894,
           "duration" : 38
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : false,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
+        "stepsCount" : 0
+      }, {
+        "name" : "Check attribute for product",
+        "time" : {
+          "start" : 1711339513894,
+          "stop" : 1711339513906,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Navigate to main page",
+        "time" : {
+          "start" : 1711339513906,
+          "stop" : 1711339513945,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 6,
-      "hasContent" : true
+      "stepsCount" : 6
     }, {
       "name" : "Added random items in card",
       "time" : {
-        "start" : 1711339274611,
-        "stop" : 1711339274702,
-        "duration" : 91
+        "start" : 1711339513945,
+        "stop" : 1711339514041,
+        "duration" : 96
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check cart icon in main page",
         "time" : {
-          "start" : 1711339274611,
-          "stop" : 1711339274621,
+          "start" : 1711339513945,
+          "stop" : 1711339513955,
           "duration" : 10
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : false,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
+        "stepsCount" : 0
       }, {
         "name" : "Added random items in cart",
         "time" : {
-          "start" : 1711339274621,
-          "stop" : 1711339274702,
-          "duration" : 81
+          "start" : 1711339513955,
+          "stop" : 1711339514041,
+          "duration" : 86
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Checking  items in cart icon",
           "time" : {
-            "start" : 1711339274692,
-            "stop" : 1711339274702,
-            "duration" : 10
+            "start" : 1711339514030,
+            "stop" : 1711339514041,
+            "duration" : 11
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
+          "hasContent" : false,
           "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "stepsCount" : 0,
-          "hasContent" : false
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "hasContent" : true,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
-        "hasContent" : true
+        "stepsCount" : 1
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 3,
-      "hasContent" : true
+      "stepsCount" : 3
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 13,
-    "hasContent" : true
+    "stepsCount" : 13
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1711339274703,
-      "stop" : 1711339274762,
+      "start" : 1711339514041,
+      "stop" : 1711339514100,
       "duration" : 59
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "stepsCount" : 0
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Main page"
-  }, {
     "name" : "severity",
     "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Main page"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -304,10 +304,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az914-246"
+    "value" : "fv-az568-540"
   }, {
     "name" : "thread",
-    "value" : "1811-MainThread"
+    "value" : "1884-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -334,11 +334,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 63,
+        "passed" : 64,
         "unknown" : 0,
-        "total" : 63
+        "total" : 64
       },
       "items" : [ {
+        "uid" : "c29508b9cac1d0e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711339273953,
+          "stop" : 1711339274702,
+          "duration" : 749
+        }
+      }, {
         "uid" : "236efb13a4bc1a3",
         "status" : "passed",
         "time" : {
@@ -490,18 +498,10 @@
           "stop" : 1711008574300,
           "duration" : 705
         }
-      }, {
-        "uid" : "e3067016b6455a6b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711002401844,
-          "stop" : 1711002402512,
-          "duration" : 668
-        }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "c29508b9cac1d0e1.json",
+  "source" : "13d86497d482b17c.json",
   "parameterValues" : [ ]
 }
