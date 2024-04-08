@@ -1,195 +1,195 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1490-599",
+    "name" : "fv-az693-806",
     "children" : [ {
-      "name" : "1881-MainThread",
+      "name" : "1798-MainThread",
       "children" : [ {
-        "name" : "Check all product in your cart",
-        "uid" : "c9783a062895de5b",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711725024841,
-          "stop" : 1711725028330,
-          "duration" : 3489
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Check error message for invalid data",
-        "uid" : "d9309fb14c7ffb0f",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711725034245,
-          "stop" : 1711725034609,
-          "duration" : 364
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test main page checking for filter",
-        "uid" : "24421d688ebfb7e3",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711725035726,
-          "stop" : 1711725036359,
-          "duration" : 633
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'$49.99'", "'hilo'" ]
-      }, {
-        "name" : "Login user",
-        "uid" : "8b445724da9497ee",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711725032844,
-          "stop" : 1711725033290,
-          "duration" : 446
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Check all price of  overview page",
-        "uid" : "bbcd7b331ca93a62",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "uid" : "d214d20c1ea8a29f",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725039280,
-          "stop" : 1711725040132,
-          "duration" : 852
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Check fields checkout page and fill data",
-        "uid" : "cc68411176bebf43",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711725030471,
-          "stop" : 1711725031278,
-          "duration" : 807
+          "start" : 1712561777760,
+          "stop" : 1712561778575,
+          "duration" : 815
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Test main page checking for filter",
-        "uid" : "f4aa67cc7e8fb480",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "uid" : "271816565cf7fd7d",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725036603,
-          "stop" : 1711725037233,
-          "duration" : 630
+          "start" : 1712561775204,
+          "stop" : 1712561775800,
+          "duration" : 596
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'Test.allTheThings() T-Shirt (Red)'", "'za'" ]
       }, {
         "name" : "Test main page checking for filter",
-        "uid" : "c3bd9924dd9d3ebf",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "uid" : "75f45bc5699b3ff",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725034853,
-          "stop" : 1711725035482,
-          "duration" : 629
+          "start" : 1712561776041,
+          "stop" : 1712561776608,
+          "duration" : 567
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'$7.99'", "'lohi'" ]
+        "parameters" : [ "'Sauce Labs Backpack'", "'az'" ]
       }, {
-        "name" : "Test checking random items in cart",
-        "uid" : "8777bfe6b04665ea",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "name" : "Check fields checkout page and fill data",
+        "uid" : "33bc76fa78dc4417",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725038320,
-          "stop" : 1711725039037,
-          "duration" : 717
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "end to end path for business proces",
-        "uid" : "af63054de4f763d1",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711725031529,
-          "stop" : 1711725032600,
-          "duration" : 1071
+          "start" : 1712561769328,
+          "stop" : 1712561770084,
+          "duration" : 756
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Check checkout page and back home page",
-        "uid" : "9766ca84aa42bad6",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "name" : "Check error message for invalid data",
+        "uid" : "36d00a2a90dd2188",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725029501,
-          "stop" : 1711725030228,
-          "duration" : 727
+          "start" : 1712561772925,
+          "stop" : 1712561773275,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login user",
+        "uid" : "a8d45fce15797d5a",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712561771573,
+          "stop" : 1712561772000,
+          "duration" : 427
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Test main page checking for filter",
-        "uid" : "dfd09cec95405a4",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "uid" : "85eae402f164b6c2",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725037476,
-          "stop" : 1711725038078,
-          "duration" : 602
+          "start" : 1712561774354,
+          "stop" : 1712561774963,
+          "duration" : 609
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'Sauce Labs Backpack'", "'az'" ]
+        "parameters" : [ "'$49.99'", "'hilo'" ]
       }, {
-        "name" : "Check error message in login page",
-        "uid" : "9dd3dc24f18be741",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "name" : "Test checking random items in cart",
+        "uid" : "4744d853c31557d6",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725033530,
-          "stop" : 1711725034003,
-          "duration" : 473
+          "start" : 1712561776847,
+          "stop" : 1712561777521,
+          "duration" : 674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check all product in your cart",
+        "uid" : "bf2d0b3fb3fdb4f",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712561766579,
+          "stop" : 1712561767260,
+          "duration" : 681
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Remove items in cart",
-        "uid" : "64d5877a6e4dd56f",
-        "parentUid" : "a977355d6182fad7ab816a2956e6a131",
+        "uid" : "f1cb7689515478e0",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
         "status" : "passed",
         "time" : {
-          "start" : 1711725028573,
-          "stop" : 1711725029261,
-          "duration" : 688
+          "start" : 1712561767501,
+          "stop" : 1712561768164,
+          "duration" : 663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check checkout page and back home page",
+        "uid" : "c79ecad1208e9f5d",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712561768407,
+          "stop" : 1712561769088,
+          "duration" : 681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "end to end path for business proces",
+        "uid" : "158908599261d868",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712561770324,
+          "stop" : 1712561771334,
+          "duration" : 1010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test main page checking for filter",
+        "uid" : "87bceba5d27d6802",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712561773513,
+          "stop" : 1712561774113,
+          "duration" : 600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'$7.99'", "'lohi'" ]
+      }, {
+        "name" : "Check error message in login page",
+        "uid" : "b9f095f93a91fb45",
+        "parentUid" : "beb80971270ecc133cb19784233ef772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712561772239,
+          "stop" : 1712561772684,
+          "duration" : 445
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a977355d6182fad7ab816a2956e6a131"
+      "uid" : "beb80971270ecc133cb19784233ef772"
     } ],
-    "uid" : "20240b7448cadbbcf83e3c687a80097c"
+    "uid" : "4a87b3b334359bd92e4e8bf7fe29f071"
   } ],
   "name" : "timeline"
 }
