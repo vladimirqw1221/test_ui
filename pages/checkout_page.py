@@ -41,7 +41,7 @@ class CheckoutPage(BaseClass):
         first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')
         last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')
         postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')
-        assert first_name == "First Name", self.make_screenshot_in_report(self.name_page) #issue for demo allure report
+        assert first_name == "First Namq", self.make_screenshot_in_report(self.name_page) #issue for demo allure report
         assert last_name == "Last Name", self.make_screenshot_in_report(self.name_page)
         assert postcode == "Zip/Postal Code", self.make_screenshot_in_report(self.name_page)
 

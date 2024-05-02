@@ -1,6 +1,7 @@
 from base_pages.base_page import BaseClass
 import allure
 import datetime
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class CartPage(BaseClass):
@@ -11,7 +12,6 @@ class CartPage(BaseClass):
     COUNT_CART = ("xpath", "//span[@class='shopping_cart_badge']")
     TITLE_CART = ("xpath", "//span[@class='title']")
     TITLE_WORD = ("xpath", "//span[@class='title']")
-
 
     @property
     def name_page(self):
@@ -46,4 +46,6 @@ class CartPage(BaseClass):
         word = self.find_element(self.TITLE_WORD)
         self.assert_word(word, "Products")
 
+
+        
 
