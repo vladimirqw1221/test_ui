@@ -1,5 +1,52 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: None",
+      "children" : [ {
+        "name" : "Check checkout page and back home page",
+        "uid" : "78d27e736031dcea",
+        "parentUid" : "0cdff165a062bb7c2f604194e7950279",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714635766944,
+          "stop" : 1714635767706,
+          "duration" : 762
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check fields checkout page and fill data",
+        "uid" : "d98e3bf529e4f85",
+        "parentUid" : "0cdff165a062bb7c2f604194e7950279",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714635767991,
+          "stop" : 1714635768755,
+          "duration" : 764
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "end to end path for business proces",
+        "uid" : "3263e303dc8c959f",
+        "parentUid" : "0cdff165a062bb7c2f604194e7950279",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714635769007,
+          "stop" : 1714635769773,
+          "duration" : 766
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cdff165a062bb7c2f604194e7950279"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
