@@ -1,100 +1,100 @@
 {
-  "uid" : "d8f6b0bdbe0b75f9",
+  "uid" : "492588e3e74595d1",
   "name" : "Check error message for invalid data",
   "fullName" : "test.test_login_page.TestLoginPage#test_no_data_user",
   "historyId" : "ae6dc9469891f283265dcdd950a8d4f8",
   "time" : {
-    "start" : 1718828075643,
-    "stop" : 1718828076018,
-    "duration" : 375
+    "start" : 1718828082900,
+    "stop" : 1718828083264,
+    "duration" : 364
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
-    "time" : {
-      "start" : 1718828075457,
-      "stop" : 1718828075642,
-      "duration" : 185
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718828061874,
-      "stop" : 1718828061891,
-      "duration" : 17
+      "start" : 1718828058199,
+      "stop" : 1718828058217,
+      "duration" : 18
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1718828082715,
+      "stop" : 1718828082899,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1718828075642,
-      "stop" : 1718828075643,
+      "start" : 1718828082899,
+      "stop" : 1718828082900,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1718828075643,
-        "stop" : 1718828075814,
-        "duration" : 171
+        "start" : 1718828082900,
+        "stop" : 1718828083063,
+        "duration" : 163
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Check error message no data",
       "time" : {
-        "start" : 1718828075814,
-        "stop" : 1718828075905,
-        "duration" : 91
+        "start" : 1718828083063,
+        "stop" : 1718828083147,
+        "duration" : 84
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Checking error message ig not password",
       "time" : {
-        "start" : 1718828075905,
-        "stop" : 1718828076018,
-        "duration" : 113
+        "start" : 1718828083147,
+        "stop" : 1718828083263,
+        "duration" : 116
       },
       "status" : "passed",
       "steps" : [ ],
@@ -103,33 +103,33 @@
         "name" : "login",
         "value" : "'standard_user'"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 3,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1718828076019,
-      "stop" : 1718828076080,
+      "start" : 1718828083264,
+      "stop" : 1718828083325,
       "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "feature",
@@ -151,10 +151,10 @@
     "value" : "TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1532-399"
+    "value" : "fv-az1426-944"
   }, {
     "name" : "thread",
-    "value" : "1779-MainThread"
+    "value" : "1962-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -181,11 +181,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 74,
+        "passed" : 75,
         "unknown" : 0,
-        "total" : 74
+        "total" : 75
       },
       "items" : [ {
+        "uid" : "e6d2c3792edf546e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718828059540,
+          "stop" : 1718828059917,
+          "duration" : 377
+        }
+      }, {
         "uid" : "fa06dad65e64868b",
         "status" : "passed",
         "time" : {
@@ -337,18 +345,10 @@
           "stop" : 1711309749246,
           "duration" : 353
         }
-      }, {
-        "uid" : "4aa55e99e3b8bb03",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711304079176,
-          "stop" : 1711304079571,
-          "duration" : 395
-        }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "d8f6b0bdbe0b75f9.json",
+  "source" : "492588e3e74595d1.json",
   "parameterValues" : [ ]
 }

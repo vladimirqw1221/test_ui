@@ -6,38 +6,38 @@
       "name" : "AssertionError: None",
       "children" : [ {
         "name" : "Check checkout page and back home page",
-        "uid" : "b483b9e226213467",
+        "uid" : "f2ed7a2c6f0e07c0",
         "parentUid" : "0cdff165a062bb7c2f604194e7950279",
         "status" : "failed",
         "time" : {
-          "start" : 1718828071154,
-          "stop" : 1718828071940,
-          "duration" : 786
+          "start" : 1718828078436,
+          "stop" : 1718828079210,
+          "duration" : 774
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Check fields checkout page and fill data",
-        "uid" : "704c0f983b166c91",
+        "uid" : "b437364ccfc66588",
         "parentUid" : "0cdff165a062bb7c2f604194e7950279",
         "status" : "failed",
         "time" : {
-          "start" : 1718828072224,
-          "stop" : 1718828072969,
-          "duration" : 745
+          "start" : 1718828079493,
+          "stop" : 1718828080243,
+          "duration" : 750
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "end to end path for business proces",
-        "uid" : "f252d67c39efa352",
+        "uid" : "784ac302cb4ba6d6",
         "parentUid" : "0cdff165a062bb7c2f604194e7950279",
         "status" : "failed",
         "time" : {
-          "start" : 1718828073222,
-          "stop" : 1718828073986,
+          "start" : 1718828080495,
+          "stop" : 1718828081259,
           "duration" : 764
         },
         "flaky" : false,
