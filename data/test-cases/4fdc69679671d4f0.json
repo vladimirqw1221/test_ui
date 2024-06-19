@@ -1,51 +1,21 @@
 {
-  "uid" : "5c9177bfc1f1ce2a",
+  "uid" : "4fdc69679671d4f0",
   "name" : "Test main page checking for filter",
   "fullName" : "test.test_main_page.TestMainPage#test_main_page",
-  "historyId" : "2b48bcfe87e877ddb01c0383a9992344",
+  "historyId" : "80854cc028cddbd01fc4389698a76996",
   "time" : {
-    "start" : 1718828060170,
-    "stop" : 1718828060809,
-    "duration" : 639
+    "start" : 1718828073854,
+    "stop" : 1718828074458,
+    "duration" : 604
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
-    "time" : {
-      "start" : 1718828059983,
-      "stop" : 1718828060169,
-      "duration" : 186
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "setup",
-    "time" : {
-      "start" : 1718828060169,
-      "stop" : 1718828060169,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718828051767,
-      "stop" : 1718828051784,
+      "start" : 1718828057355,
+      "stop" : 1718828057372,
       "duration" : 17
     },
     "status" : "passed",
@@ -53,33 +23,63 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1718828073668,
+      "stop" : 1718828073852,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1718828073852,
+      "stop" : 1718828073853,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1718828060170,
-        "stop" : 1718828060358,
-        "duration" : 188
+        "start" : 1718828073854,
+        "stop" : 1718828074038,
+        "duration" : 184
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1718828060358,
-        "stop" : 1718828060602,
-        "duration" : 244
+        "start" : 1718828074038,
+        "stop" : 1718828074280,
+        "duration" : 242
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,14 +92,14 @@
         "value" : "'secret_sauce'"
       } ],
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Checking all buttons in page",
       "time" : {
-        "start" : 1718828060603,
-        "stop" : 1718828060643,
+        "start" : 1718828074280,
+        "stop" : 1718828074320,
         "duration" : 40
       },
       "status" : "passed",
@@ -107,22 +107,22 @@
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Remove items from cart",
       "time" : {
-        "start" : 1718828060643,
-        "stop" : 1718828060742,
-        "duration" : 99
+        "start" : 1718828074320,
+        "stop" : 1718828074417,
+        "duration" : 97
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Added items in cart",
         "time" : {
-          "start" : 1718828060643,
-          "stop" : 1718828060688,
+          "start" : 1718828074320,
+          "stop" : 1718828074365,
           "duration" : 45
         },
         "status" : "passed",
@@ -130,29 +130,29 @@
         "attachments" : [ ],
         "parameters" : [ ],
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Checking  items in cart icon",
         "time" : {
-          "start" : 1718828060688,
-          "stop" : 1718828060704,
-          "duration" : 16
+          "start" : 1718828074365,
+          "stop" : 1718828074379,
+          "duration" : 14
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Remove items in cart",
         "time" : {
-          "start" : 1718828060704,
-          "stop" : 1718828060742,
+          "start" : 1718828074379,
+          "stop" : 1718828074417,
           "duration" : 38
         },
         "status" : "passed",
@@ -160,50 +160,50 @@
         "attachments" : [ ],
         "parameters" : [ ],
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 3,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Check sorting filter",
       "time" : {
-        "start" : 1718828060742,
-        "stop" : 1718828060809,
-        "duration" : 67
+        "start" : 1718828074417,
+        "stop" : 1718828074458,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "value",
-        "value" : "'lohi'"
+        "value" : "'az'"
       }, {
         "name" : "result",
-        "value" : "'$7.99'"
+        "value" : "'Sauce Labs Backpack'"
       } ],
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 8,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1718828060810,
-      "stop" : 1718828060871,
+      "start" : 1718828074459,
+      "stop" : 1718828074520,
       "duration" : 61
     },
     "status" : "passed",
@@ -211,9 +211,9 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "severity",
@@ -235,10 +235,10 @@
     "value" : "TestMainPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1759-545"
+    "value" : "fv-az1153-443"
   }, {
     "name" : "thread",
-    "value" : "1861-MainThread"
+    "value" : "1788-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -254,10 +254,10 @@
   } ],
   "parameters" : [ {
     "name" : "result",
-    "value" : "'$7.99'"
+    "value" : "'Sauce Labs Backpack'"
   }, {
     "name" : "value",
-    "value" : "'lohi'"
+    "value" : "'az'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -276,169 +276,169 @@
         "total" : 74
       },
       "items" : [ {
-        "uid" : "4ea70fb38d087f5",
+        "uid" : "14d948855ba7f8db",
         "status" : "passed",
         "time" : {
-          "start" : 1714635772006,
-          "stop" : 1714635772614,
-          "duration" : 608
+          "start" : 1714635774589,
+          "stop" : 1714635775187,
+          "duration" : 598
         }
       }, {
-        "uid" : "29323f3e45bc2ec8",
+        "uid" : "a7205da1f000da9e",
         "status" : "passed",
         "time" : {
-          "start" : 1712579116574,
-          "stop" : 1712579117239,
-          "duration" : 665
+          "start" : 1712579119284,
+          "stop" : 1712579119910,
+          "duration" : 626
         }
       }, {
-        "uid" : "8de005ed5593ee17",
+        "uid" : "b40981dbb64dddd6",
         "status" : "passed",
         "time" : {
-          "start" : 1712563182959,
-          "stop" : 1712563183550,
-          "duration" : 591
+          "start" : 1712563185447,
+          "stop" : 1712563186013,
+          "duration" : 566
         }
       }, {
-        "uid" : "87bceba5d27d6802",
+        "uid" : "75f45bc5699b3ff",
         "status" : "passed",
         "time" : {
-          "start" : 1712561773513,
-          "stop" : 1712561774113,
-          "duration" : 600
+          "start" : 1712561776041,
+          "stop" : 1712561776608,
+          "duration" : 567
         }
       }, {
-        "uid" : "c3bd9924dd9d3ebf",
+        "uid" : "dfd09cec95405a4",
         "status" : "passed",
         "time" : {
-          "start" : 1711725034853,
-          "stop" : 1711725035482,
-          "duration" : 629
-        }
-      }, {
-        "uid" : "856a75ac6395fd00",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711700367466,
-          "stop" : 1711700368071,
-          "duration" : 605
-        }
-      }, {
-        "uid" : "5ef5261cf86c582f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711376519832,
-          "stop" : 1711376520434,
+          "start" : 1711725037476,
+          "stop" : 1711725038078,
           "duration" : 602
         }
       }, {
-        "uid" : "2ec1c11880e4bdfa",
+        "uid" : "38b3087007bd6f83",
         "status" : "passed",
         "time" : {
-          "start" : 1711376024684,
-          "stop" : 1711376025321,
-          "duration" : 637
+          "start" : 1711700370036,
+          "stop" : 1711700370630,
+          "duration" : 594
         }
       }, {
-        "uid" : "165ce9124f34a9c7",
+        "uid" : "f04cce6d6acdeb92",
         "status" : "passed",
         "time" : {
-          "start" : 1711360900860,
-          "stop" : 1711360901535,
-          "duration" : 675
+          "start" : 1711376522380,
+          "stop" : 1711376522951,
+          "duration" : 571
         }
       }, {
-        "uid" : "891e7993c9307c55",
+        "uid" : "cd862bf39f9e9879",
         "status" : "passed",
         "time" : {
-          "start" : 1711339509923,
-          "stop" : 1711339510552,
-          "duration" : 629
+          "start" : 1711376027287,
+          "stop" : 1711376027884,
+          "duration" : 597
         }
       }, {
-        "uid" : "b0d94c2573c7c8df",
+        "uid" : "46770f0d3adac057",
         "status" : "passed",
         "time" : {
-          "start" : 1711339270322,
-          "stop" : 1711339270989,
-          "duration" : 667
+          "start" : 1711360903620,
+          "stop" : 1711360904282,
+          "duration" : 662
         }
       }, {
-        "uid" : "c3ffa020652bdf84",
+        "uid" : "88bfe9211109f1e1",
         "status" : "passed",
         "time" : {
-          "start" : 1711316023749,
-          "stop" : 1711316024354,
-          "duration" : 605
+          "start" : 1711339512509,
+          "stop" : 1711339513093,
+          "duration" : 584
         }
       }, {
-        "uid" : "1bf6c91bb0644d61",
+        "uid" : "f388592187079746",
         "status" : "passed",
         "time" : {
-          "start" : 1711315359032,
-          "stop" : 1711315359733,
-          "duration" : 701
+          "start" : 1711339273066,
+          "stop" : 1711339273718,
+          "duration" : 652
         }
       }, {
-        "uid" : "15d6f8e2d43caef3",
+        "uid" : "678badc0cc8c3c2b",
         "status" : "passed",
         "time" : {
-          "start" : 1711313827019,
-          "stop" : 1711313827730,
-          "duration" : 711
+          "start" : 1711316026283,
+          "stop" : 1711316026856,
+          "duration" : 573
         }
       }, {
-        "uid" : "a6b54e5516e5088b",
+        "uid" : "47dc6a376a5a7eea",
         "status" : "passed",
         "time" : {
-          "start" : 1711313506003,
-          "stop" : 1711313506622,
-          "duration" : 619
+          "start" : 1711315361942,
+          "stop" : 1711315362637,
+          "duration" : 695
         }
       }, {
-        "uid" : "8a80c11628145764",
+        "uid" : "a332df3bd57ab817",
         "status" : "passed",
         "time" : {
-          "start" : 1711312952621,
-          "stop" : 1711312953313,
-          "duration" : 692
+          "start" : 1711313829845,
+          "stop" : 1711313830502,
+          "duration" : 657
         }
       }, {
-        "uid" : "a6365df325b438b5",
+        "uid" : "117a90ed9bb87ed6",
         "status" : "passed",
         "time" : {
-          "start" : 1711312660422,
-          "stop" : 1711312661054,
-          "duration" : 632
+          "start" : 1711313508618,
+          "stop" : 1711313509211,
+          "duration" : 593
         }
       }, {
-        "uid" : "cf333041438a924a",
+        "uid" : "940532c470f187da",
         "status" : "passed",
         "time" : {
-          "start" : 1711311021738,
-          "stop" : 1711311022384,
-          "duration" : 646
+          "start" : 1711312955407,
+          "stop" : 1711312956072,
+          "duration" : 665
         }
       }, {
-        "uid" : "51e33a20d247b5f7",
+        "uid" : "a7af5f2101ce0d44",
         "status" : "passed",
         "time" : {
-          "start" : 1711309749482,
-          "stop" : 1711309750689,
-          "duration" : 1207
+          "start" : 1711312663026,
+          "stop" : 1711312663661,
+          "duration" : 635
         }
       }, {
-        "uid" : "95ef9ae0732038ce",
+        "uid" : "bd05d4da303b8d3a",
         "status" : "passed",
         "time" : {
-          "start" : 1711304079808,
-          "stop" : 1711304080445,
-          "duration" : 637
+          "start" : 1711311024416,
+          "stop" : 1711311025037,
+          "duration" : 621
+        }
+      }, {
+        "uid" : "3bbab46e509adab2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711309752607,
+          "stop" : 1711309753181,
+          "duration" : 574
+        }
+      }, {
+        "uid" : "6d3ad86d064dc9f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711304082439,
+          "stop" : 1711304083049,
+          "duration" : 610
         }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "5c9177bfc1f1ce2a.json",
-  "parameterValues" : [ "'$7.99'", "'lohi'" ]
+  "source" : "4fdc69679671d4f0.json",
+  "parameterValues" : [ "'Sauce Labs Backpack'", "'az'" ]
 }
