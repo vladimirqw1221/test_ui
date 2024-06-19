@@ -1,38 +1,23 @@
 {
-  "uid" : "8833cdf327891fa2",
+  "uid" : "f252d67c39efa352",
   "name" : "end to end path for business proces",
   "fullName" : "test.test_finish_page.TestFinishPage#test_e2e_path",
   "historyId" : "e2d7e8466489d6950a084e777d951f22",
   "time" : {
-    "start" : 1718828069475,
-    "stop" : 1718828070240,
-    "duration" : 765
+    "start" : 1718828073222,
+    "stop" : 1718828073986,
+    "duration" : 764
   },
   "status" : "failed",
   "statusMessage" : "AssertionError: None",
-  "statusTrace" : "self = <test_finish_page.TestFinishPage object at 0x7fde5049fb80>\n\n    @allure.title(\"end to end path for business proces\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.smoke\n    def test_e2e_path(self):\n        self.finish_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.login_page.check_validate_user()\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.check_cart_title()\n        self.cart_page.check_all_items_in_cart()\n        self.cart_page.navigate_to_checkout()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_finish_page.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7fde4f40b4f0>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
+  "statusTrace" : "self = <test_finish_page.TestFinishPage object at 0x7f8b25a17ca0>\n\n    @allure.title(\"end to end path for business proces\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.smoke\n    def test_e2e_path(self):\n        self.finish_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.login_page.check_validate_user()\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.check_cart_title()\n        self.cart_page.check_all_items_in_cart()\n        self.cart_page.navigate_to_checkout()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_finish_page.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7f8b24af74f0>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1718828058487,
-      "stop" : 1718828058504,
-      "duration" : 17
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "setup",
     "time" : {
-      "start" : 1718828069474,
-      "stop" : 1718828069475,
+      "start" : 1718828073221,
+      "stop" : 1718828073222,
       "duration" : 1
     },
     "status" : "passed",
@@ -46,9 +31,24 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1718828069291,
-      "stop" : 1718828069474,
-      "duration" : 183
+      "start" : 1718828073037,
+      "stop" : 1718828073221,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1718828061874,
+      "stop" : 1718828061891,
+      "duration" : 17
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,13 +62,13 @@
   "testStage" : {
     "status" : "failed",
     "statusMessage" : "AssertionError: None",
-    "statusTrace" : "self = <test_finish_page.TestFinishPage object at 0x7fde5049fb80>\n\n    @allure.title(\"end to end path for business proces\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.smoke\n    def test_e2e_path(self):\n        self.finish_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.login_page.check_validate_user()\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.check_cart_title()\n        self.cart_page.check_all_items_in_cart()\n        self.cart_page.navigate_to_checkout()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_finish_page.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7fde4f40b4f0>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
+    "statusTrace" : "self = <test_finish_page.TestFinishPage object at 0x7f8b25a17ca0>\n\n    @allure.title(\"end to end path for business proces\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    @pytest.mark.smoke\n    def test_e2e_path(self):\n        self.finish_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.login_page.check_validate_user()\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.check_cart_title()\n        self.cart_page.check_all_items_in_cart()\n        self.cart_page.navigate_to_checkout()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_finish_page.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7f8b24af74f0>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1718828069475,
-        "stop" : 1718828069648,
-        "duration" : 173
+        "start" : 1718828073222,
+        "stop" : 1718828073398,
+        "duration" : 176
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1718828069648,
-        "stop" : 1718828069895,
-        "duration" : 247
+        "start" : 1718828073399,
+        "stop" : 1718828073642,
+        "duration" : 243
       },
       "status" : "passed",
       "steps" : [ ],
@@ -102,9 +102,9 @@
     }, {
       "name" : "Check title in main page",
       "time" : {
-        "start" : 1718828069895,
-        "stop" : 1718828069917,
-        "duration" : 22
+        "start" : 1718828073642,
+        "stop" : 1718828073665,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,17 +117,17 @@
     }, {
       "name" : "Added random items in card",
       "time" : {
-        "start" : 1718828069917,
-        "stop" : 1718828070022,
-        "duration" : 105
+        "start" : 1718828073665,
+        "stop" : 1718828073767,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check cart icon in main page",
         "time" : {
-          "start" : 1718828069917,
-          "stop" : 1718828069931,
-          "duration" : 14
+          "start" : 1718828073665,
+          "stop" : 1718828073678,
+          "duration" : 13
         },
         "status" : "passed",
         "steps" : [ ],
@@ -140,17 +140,17 @@
       }, {
         "name" : "Added random items in cart",
         "time" : {
-          "start" : 1718828069931,
-          "stop" : 1718828070022,
-          "duration" : 91
+          "start" : 1718828073678,
+          "stop" : 1718828073767,
+          "duration" : 89
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Checking  items in cart icon",
           "time" : {
-            "start" : 1718828070009,
-            "stop" : 1718828070022,
-            "duration" : 13
+            "start" : 1718828073756,
+            "stop" : 1718828073767,
+            "duration" : 11
           },
           "status" : "passed",
           "steps" : [ ],
@@ -177,8 +177,8 @@
     }, {
       "name" : "Navigate to cart",
       "time" : {
-        "start" : 1718828070022,
-        "stop" : 1718828070057,
+        "start" : 1718828073767,
+        "stop" : 1718828073802,
         "duration" : 35
       },
       "status" : "passed",
@@ -192,9 +192,9 @@
     }, {
       "name" : "Check title on cart page",
       "time" : {
-        "start" : 1718828070058,
-        "stop" : 1718828070070,
-        "duration" : 12
+        "start" : 1718828073802,
+        "stop" : 1718828073815,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -207,17 +207,17 @@
     }, {
       "name" : "Checking cart",
       "time" : {
-        "start" : 1718828070070,
-        "stop" : 1718828070089,
-        "duration" : 19
+        "start" : 1718828073815,
+        "stop" : 1718828073832,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check items in cart",
         "time" : {
-          "start" : 1718828070070,
-          "stop" : 1718828070079,
-          "duration" : 9
+          "start" : 1718828073815,
+          "stop" : 1718828073822,
+          "duration" : 7
         },
         "status" : "passed",
         "steps" : [ ],
@@ -230,8 +230,8 @@
       }, {
         "name" : "Check items in icons cart",
         "time" : {
-          "start" : 1718828070079,
-          "stop" : 1718828070089,
+          "start" : 1718828073822,
+          "stop" : 1718828073832,
           "duration" : 10
         },
         "status" : "passed",
@@ -255,18 +255,18 @@
     }, {
       "name" : "Check attribute in fields",
       "time" : {
-        "start" : 1718828070123,
-        "stop" : 1718828070240,
-        "duration" : 117
+        "start" : 1718828073865,
+        "stop" : 1718828073986,
+        "duration" : 121
       },
       "status" : "failed",
       "statusMessage" : "AssertionError: None\n",
       "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/test_ui/test_ui/pages/checkout_page.py\", line 44, in check_fields_in_form\n    assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\n",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "21968754c18b47d9",
-        "name" : "Checkout_Page_2024-06-19_20-14-30",
-        "source" : "21968754c18b47d9.png",
+        "uid" : "ea3207f52700ed0c",
+        "name" : "Checkout_Page_2024-06-19_20-14-33",
+        "source" : "ea3207f52700ed0c.png",
         "type" : "image/png",
         "size" : 32485
       } ],
@@ -286,8 +286,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1718828070246,
-      "stop" : 1718828070307,
+      "start" : 1718828073991,
+      "stop" : 1718828074052,
       "duration" : 61
     },
     "status" : "passed",
@@ -322,7 +322,7 @@
     "value" : "fv-az1532-399"
   }, {
     "name" : "thread",
-    "value" : "1795-MainThread"
+    "value" : "1779-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -522,6 +522,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "8833cdf327891fa2.json",
+  "source" : "f252d67c39efa352.json",
   "parameterValues" : [ ]
 }
