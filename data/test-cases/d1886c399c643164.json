@@ -1,24 +1,24 @@
 {
-  "uid" : "78d27e736031dcea",
-  "name" : "Check checkout page and back home page",
-  "fullName" : "test.test_checkout_page.TestCheckoutPage#test_check_attribute_in_form",
-  "historyId" : "dfee3a0d067b34fdd1a4ccbc9e37e565",
+  "uid" : "d1886c399c643164",
+  "name" : "Check fields checkout page and fill data",
+  "fullName" : "test.test_checkout_page.TestCheckoutPage#test_enter_data_in_fields_and_check",
+  "historyId" : "8a7aca006da686e32d6a453addebeb46",
   "time" : {
-    "start" : 1714635766944,
-    "stop" : 1714635767706,
-    "duration" : 762
+    "start" : 1718828056072,
+    "stop" : 1718828056827,
+    "duration" : 755
   },
   "status" : "failed",
   "statusMessage" : "AssertionError: None",
-  "statusTrace" : "self = <test_checkout_page.TestCheckoutPage object at 0x7fa46a962920>\n\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.title(\"Check checkout page and back home page\")\n    @pytest.mark.development\n    def test_check_attribute_in_form(self):\n        self.checkout_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.navigate_to_checkout()\n        self.checkout_page.check_title_page()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_checkout_page.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7fa46aa72b90>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
+  "statusTrace" : "self = <test_checkout_page.TestCheckoutPage object at 0x7f6494502530>\n\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.title(\"Check fields checkout page and fill data\")\n    @pytest.mark.development\n    def test_enter_data_in_fields_and_check(self):\n        self.checkout_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.navigate_to_checkout()\n        self.checkout_page.check_title_page()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_checkout_page.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7f6494552980>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
   "flaky" : false,
-  "newFailed" : true,
+  "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1714635766755,
-      "stop" : 1714635766943,
-      "duration" : 188
+      "start" : 1718828051767,
+      "stop" : 1718828051784,
+      "duration" : 17
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1714635766944,
-      "stop" : 1714635766944,
-      "duration" : 0
+      "start" : 1718828056071,
+      "stop" : 1718828056072,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,11 +44,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "driver",
     "time" : {
-      "start" : 1714635763356,
-      "stop" : 1714635763373,
-      "duration" : 17
+      "start" : 1718828055886,
+      "stop" : 1718828056071,
+      "duration" : 185
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,13 +62,13 @@
   "testStage" : {
     "status" : "failed",
     "statusMessage" : "AssertionError: None",
-    "statusTrace" : "self = <test_checkout_page.TestCheckoutPage object at 0x7fa46a962920>\n\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.title(\"Check checkout page and back home page\")\n    @pytest.mark.development\n    def test_check_attribute_in_form(self):\n        self.checkout_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.navigate_to_checkout()\n        self.checkout_page.check_title_page()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_checkout_page.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7fa46aa72b90>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
+    "statusTrace" : "self = <test_checkout_page.TestCheckoutPage object at 0x7f6494502530>\n\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.title(\"Check fields checkout page and fill data\")\n    @pytest.mark.development\n    def test_enter_data_in_fields_and_check(self):\n        self.checkout_page.open()\n        self.login_page.login_user_data(\n            self.data_user.USER_NAME,\n            self.data_user.PASSWORD\n        )\n        self.main_page.add_to_card_random_items()\n        self.main_page.navigate_to_cart()\n        self.cart_page.navigate_to_checkout()\n        self.checkout_page.check_title_page()\n>       self.checkout_page.check_fields_in_form()\n\ntest/test_checkout_page.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.checkout_page.CheckoutPage object at 0x7f6494552980>\n\n    @allure.step('Check attribute in fields')\n    def check_fields_in_form(self) -> None:\n        first_name = self.find_element(self.FIRST_NAME).get_attribute('placeholder')\n        last_name = self.find_element(self.LAST_NAME).get_attribute('placeholder')\n        postcode = self.find_element(self.POSTALCODE).get_attribute('placeholder')\n>       assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\nE       AssertionError: None\n\npages/checkout_page.py:44: AssertionError",
     "steps" : [ {
       "name" : "Navigate to https://www.saucedemo.com/",
       "time" : {
-        "start" : 1714635766944,
-        "stop" : 1714635767091,
-        "duration" : 147
+        "start" : 1718828056072,
+        "stop" : 1718828056259,
+        "duration" : 187
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "Enter data for login page",
       "time" : {
-        "start" : 1714635767091,
-        "stop" : 1714635767341,
-        "duration" : 250
+        "start" : 1718828056259,
+        "stop" : 1718828056495,
+        "duration" : 236
       },
       "status" : "passed",
       "steps" : [ ],
@@ -102,17 +102,17 @@
     }, {
       "name" : "Added random items in card",
       "time" : {
-        "start" : 1714635767341,
-        "stop" : 1714635767455,
-        "duration" : 114
+        "start" : 1718828056495,
+        "stop" : 1718828056607,
+        "duration" : 112
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check cart icon in main page",
         "time" : {
-          "start" : 1714635767342,
-          "stop" : 1714635767361,
-          "duration" : 19
+          "start" : 1718828056495,
+          "stop" : 1718828056515,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
@@ -125,16 +125,16 @@
       }, {
         "name" : "Added random items in cart",
         "time" : {
-          "start" : 1714635767361,
-          "stop" : 1714635767455,
-          "duration" : 94
+          "start" : 1718828056515,
+          "stop" : 1718828056607,
+          "duration" : 92
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Checking  items in cart icon",
           "time" : {
-            "start" : 1714635767440,
-            "stop" : 1714635767455,
+            "start" : 1718828056592,
+            "stop" : 1718828056607,
             "duration" : 15
           },
           "status" : "passed",
@@ -162,9 +162,9 @@
     }, {
       "name" : "Navigate to cart",
       "time" : {
-        "start" : 1714635767455,
-        "stop" : 1714635767491,
-        "duration" : 36
+        "start" : 1718828056607,
+        "stop" : 1718828056642,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -177,9 +177,9 @@
     }, {
       "name" : "Check title in checkout page",
       "time" : {
-        "start" : 1714635767529,
-        "stop" : 1714635767544,
-        "duration" : 15
+        "start" : 1718828056679,
+        "stop" : 1718828056693,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -192,20 +192,20 @@
     }, {
       "name" : "Check attribute in fields",
       "time" : {
-        "start" : 1714635767544,
-        "stop" : 1714635767706,
-        "duration" : 162
+        "start" : 1718828056693,
+        "stop" : 1718828056827,
+        "duration" : 134
       },
       "status" : "failed",
       "statusMessage" : "AssertionError: None\n",
       "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.14/x64/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/test_ui/test_ui/pages/checkout_page.py\", line 44, in check_fields_in_form\n    assert first_name == \"First Namq\", self.make_screenshot_in_report(self.name_page) #issue for demo allure report\n",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "233654834f6c47b3",
-        "name" : "Checkout_Page_2024-05-02_07-42-47",
-        "source" : "233654834f6c47b3.png",
+        "uid" : "87c37a4cc5f169f0",
+        "name" : "Checkout_Page_2024-06-19_20-14-16",
+        "source" : "87c37a4cc5f169f0.png",
         "type" : "image/png",
-        "size" : 37278
+        "size" : 32485
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 1,
@@ -223,8 +223,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1714635767742,
-      "stop" : 1714635767803,
+      "start" : 1718828056831,
+      "stop" : 1718828056892,
       "duration" : 61
     },
     "status" : "passed",
@@ -256,10 +256,10 @@
     "value" : "TestCheckoutPage"
   }, {
     "name" : "host",
-    "value" : "fv-az1393-442"
+    "value" : "fv-az1759-545"
   }, {
     "name" : "thread",
-    "value" : "1939-MainThread"
+    "value" : "1861-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -287,177 +287,178 @@
     } ],
     "history" : {
       "statistic" : {
-        "failed" : 2,
+        "failed" : 3,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 71,
         "unknown" : 0,
-        "total" : 73
+        "total" : 74
       },
       "items" : [ {
-        "uid" : "af06ab89cd538391",
-        "status" : "passed",
+        "uid" : "d98e3bf529e4f85",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: None",
         "time" : {
-          "start" : 1712579111148,
-          "stop" : 1712579111895,
-          "duration" : 747
+          "start" : 1714635767991,
+          "stop" : 1714635768755,
+          "duration" : 764
         }
       }, {
-        "uid" : "9d328083fca0e060",
+        "uid" : "3ce9f21b58a51893",
         "status" : "passed",
         "time" : {
-          "start" : 1712563177905,
-          "stop" : 1712563178574,
-          "duration" : 669
+          "start" : 1712579112141,
+          "stop" : 1712579112971,
+          "duration" : 830
         }
       }, {
-        "uid" : "c79ecad1208e9f5d",
+        "uid" : "7ef5cb6805815832",
         "status" : "passed",
         "time" : {
-          "start" : 1712561768407,
-          "stop" : 1712561769088,
-          "duration" : 681
+          "start" : 1712563178814,
+          "stop" : 1712563179563,
+          "duration" : 749
         }
       }, {
-        "uid" : "9766ca84aa42bad6",
+        "uid" : "33bc76fa78dc4417",
         "status" : "passed",
         "time" : {
-          "start" : 1711725029501,
-          "stop" : 1711725030228,
-          "duration" : 727
+          "start" : 1712561769328,
+          "stop" : 1712561770084,
+          "duration" : 756
         }
       }, {
-        "uid" : "fcbf1fb99b4888fc",
+        "uid" : "cc68411176bebf43",
         "status" : "passed",
         "time" : {
-          "start" : 1711700362250,
-          "stop" : 1711700362946,
-          "duration" : 696
+          "start" : 1711725030471,
+          "stop" : 1711725031278,
+          "duration" : 807
         }
       }, {
-        "uid" : "6b5b739a9f9114c",
+        "uid" : "190f59d5cabe0ad6",
         "status" : "passed",
         "time" : {
-          "start" : 1711376514690,
-          "stop" : 1711376515373,
-          "duration" : 683
+          "start" : 1711700363187,
+          "stop" : 1711700363958,
+          "duration" : 771
         }
       }, {
-        "uid" : "4e84e93f209e4b30",
+        "uid" : "dc4c5129af47ba55",
         "status" : "passed",
         "time" : {
-          "start" : 1711376019390,
-          "stop" : 1711376020094,
-          "duration" : 704
+          "start" : 1711376515610,
+          "stop" : 1711376516374,
+          "duration" : 764
         }
       }, {
-        "uid" : "36a0b073580f2bae",
+        "uid" : "7f43d6210b3cd603",
         "status" : "passed",
         "time" : {
-          "start" : 1711360895258,
-          "stop" : 1711360896030,
-          "duration" : 772
+          "start" : 1711376020330,
+          "stop" : 1711376021134,
+          "duration" : 804
         }
       }, {
-        "uid" : "86f73856347b99b1",
+        "uid" : "bce338890d0044cc",
         "status" : "passed",
         "time" : {
-          "start" : 1711339504747,
-          "stop" : 1711339505433,
-          "duration" : 686
+          "start" : 1711360896267,
+          "stop" : 1711360897108,
+          "duration" : 841
         }
       }, {
-        "uid" : "ba382ce743a48d8",
+        "uid" : "d012cfb7de74b482",
         "status" : "passed",
         "time" : {
-          "start" : 1711339264781,
-          "stop" : 1711339265536,
-          "duration" : 755
+          "start" : 1711339505673,
+          "stop" : 1711339506451,
+          "duration" : 778
         }
       }, {
-        "uid" : "16ac19093f023efd",
+        "uid" : "d8b768ef272d5dd9",
         "status" : "passed",
         "time" : {
-          "start" : 1711316018583,
-          "stop" : 1711316019309,
-          "duration" : 726
+          "start" : 1711339265769,
+          "stop" : 1711339266591,
+          "duration" : 822
         }
       }, {
-        "uid" : "e2308bdcb1c6cdb7",
+        "uid" : "68eb54f2879a7b3d",
         "status" : "passed",
         "time" : {
-          "start" : 1711315353078,
-          "stop" : 1711315353871,
-          "duration" : 793
-        }
-      }, {
-        "uid" : "b32da3473307de0a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711313821229,
-          "stop" : 1711313822145,
-          "duration" : 916
-        }
-      }, {
-        "uid" : "d9329716be0f7e2a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711313500783,
-          "stop" : 1711313501466,
-          "duration" : 683
-        }
-      }, {
-        "uid" : "aa0bbb0ed67029a0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1711312946992,
-          "stop" : 1711312947759,
+          "start" : 1711316019547,
+          "stop" : 1711316020314,
           "duration" : 767
         }
       }, {
-        "uid" : "f82669845a40ccda",
+        "uid" : "e4f36ca3e0230837",
         "status" : "passed",
         "time" : {
-          "start" : 1711312655110,
-          "stop" : 1711312655842,
-          "duration" : 732
+          "start" : 1711315354113,
+          "stop" : 1711315355011,
+          "duration" : 898
         }
       }, {
-        "uid" : "27713246d28e863c",
+        "uid" : "7046a9a3e8c65d96",
         "status" : "passed",
         "time" : {
-          "start" : 1711311016035,
-          "stop" : 1711311016895,
-          "duration" : 860
+          "start" : 1711313822381,
+          "stop" : 1711313823210,
+          "duration" : 829
         }
       }, {
-        "uid" : "5d9782a0c7f30730",
+        "uid" : "76aaa91968e1450b",
         "status" : "passed",
         "time" : {
-          "start" : 1711309744375,
-          "stop" : 1711309745061,
-          "duration" : 686
+          "start" : 1711313501704,
+          "stop" : 1711313502466,
+          "duration" : 762
         }
       }, {
-        "uid" : "25560fe43bf14f3b",
+        "uid" : "fa59486b260de991",
         "status" : "passed",
         "time" : {
-          "start" : 1711304074433,
-          "stop" : 1711304075147,
-          "duration" : 714
+          "start" : 1711312947997,
+          "stop" : 1711312948832,
+          "duration" : 835
         }
       }, {
-        "uid" : "4265fe9848af82fa",
+        "uid" : "d3d8884a7cfa6b53",
         "status" : "passed",
         "time" : {
-          "start" : 1711297202784,
-          "stop" : 1711297203466,
-          "duration" : 682
+          "start" : 1711312656078,
+          "stop" : 1711312656855,
+          "duration" : 777
+        }
+      }, {
+        "uid" : "282856f972f0bfd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711311017132,
+          "stop" : 1711311017967,
+          "duration" : 835
+        }
+      }, {
+        "uid" : "23813a0ba2e5b339",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711309745299,
+          "stop" : 1711309746063,
+          "duration" : 764
+        }
+      }, {
+        "uid" : "cb7e0e19801d2872",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711304075386,
+          "stop" : 1711304076210,
+          "duration" : 824
         }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "78d27e736031dcea.json",
+  "source" : "d1886c399c643164.json",
   "parameterValues" : [ ]
 }
