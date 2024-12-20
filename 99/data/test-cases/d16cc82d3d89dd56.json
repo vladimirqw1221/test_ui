@@ -1,0 +1,221 @@
+{
+  "uid" : "d16cc82d3d89dd56",
+  "name" : "Check error message for invalid data",
+  "fullName" : "test.test_login_page.TestLoginPage#test_no_data_user",
+  "historyId" : "ae6dc9469891f283265dcdd950a8d4f8",
+  "time" : {
+    "start" : 1734681704857,
+    "stop" : 1734681705287,
+    "duration" : 430
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1734681689750,
+      "stop" : 1734681689767,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1734681704856,
+      "stop" : 1734681704857,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1734681704588,
+      "stop" : 1734681704856,
+      "duration" : 268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to https://www.saucedemo.com/",
+      "time" : {
+        "start" : 1734681704857,
+        "stop" : 1734681705035,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check error message no data",
+      "time" : {
+        "start" : 1734681705035,
+        "stop" : 1734681705153,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking error message ig not password",
+      "time" : {
+        "start" : 1734681705153,
+        "stop" : 1734681705287,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'standard_user'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1734681705288,
+      "stop" : 1734681705355,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Login Page"
+  }, {
+    "name" : "tag",
+    "value" : "development"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1950-23"
+  }, {
+    "name" : "thread",
+    "value" : "2405-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "187b9b1d4910151f",
+        "reportUrl" : "https://vladimirqw1221.github.io/test_ui/98//#testresult/187b9b1d4910151f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1734680958256,
+          "stop" : 1734680958681,
+          "duration" : 425
+        }
+      }, {
+        "uid" : "3a38e2e423eacb4d",
+        "reportUrl" : "https://vladimirqw1221.github.io/test_ui/97//#testresult/3a38e2e423eacb4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1734679904828,
+          "stop" : 1734679905254,
+          "duration" : 426
+        }
+      }, {
+        "uid" : "9ab9a28c5a25b7a2",
+        "reportUrl" : "https://vladimirqw1221.github.io/test_ui/96//#testresult/9ab9a28c5a25b7a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1734679759551,
+          "stop" : 1734679759966,
+          "duration" : 415
+        }
+      } ]
+    },
+    "tags" : [ "development" ]
+  },
+  "source" : "d16cc82d3d89dd56.json",
+  "parameterValues" : [ ]
+}
