@@ -37,3 +37,6 @@ class TestCartPage(BaseTest):
         self.cart_page.remove_items_of_cart()
         self.cart_page.go_to_home_page()
 
+    def test_(self):
+        assert  1 == 1
+
