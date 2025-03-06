@@ -24,7 +24,7 @@ class BaseClass:
 
     @abstractmethod
     def name_page(self):
-        ...
+        pass
 
     def make_screenshot_in_report(self, new_name) -> None:
         allure.attach(
